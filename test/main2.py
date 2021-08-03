@@ -1,4 +1,4 @@
-from kivy.garden.mapview import MapView
+from kivy_garden.mapview import MapView
 from kivy.app import App
 
 class MapViewApp(App):
