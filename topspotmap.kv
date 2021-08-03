@@ -1,0 +1,13 @@
+#:kivy 2.0.0
+#:import MapView kivy.garden.mapview.MapView
+
+<TopSpotMap>:
+    lat: 51.41014850183159
+    lon: 7.182447026769182
+    zoom: 17
+    on_zoom:
+        self.zoom = 4 if self.zoom < 4 else self.zoom
+    on_lat:
+        self.start_getting_spots_in_fov()
+    on_lon:
+        self.start_getting_spots_in_fov()
