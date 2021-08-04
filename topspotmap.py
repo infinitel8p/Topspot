@@ -17,7 +17,7 @@ class TopSpotMap(MapView):
     def get_spots_in_fov(self, *args):
         min_lat, min_lon, max_lat, max_lon = self.get_bbox()
         app = App.get_running_app()
-        sql_statement = "SELECT * FROM markets WHERE x > %s AND x < %s AND y > %s AND y < %s "%(min_lon, max_lon, min_lat, max_lat)
+        sql_statement = "SELECT * FROM spotlist WHERE x > %s AND x < %s AND y > %s AND y < %s "%(min_lon, max_lon, min_lat, max_lat)
         app.cursor.execute(sql_statement)
         spots = app.cursor.fetchall()
         print(spots)
