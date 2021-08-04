@@ -37,10 +37,13 @@ class TopSpotMap(MapView):
 
     def add_spot(self, spot):
         print(f"Creating Marker for: {spot[1]}")
+        print(spot[21], spot[20])
 
         #init marker for the spot
         lat, lon = spot[21], spot[20]
-        marker = SpotMarker(lat = lat, lon = lon)
+        marker = SpotMarker()
+        marker.lat = lat
+        marker.lon = lon
 
         #add marker to map
         self.add_widget(marker)
