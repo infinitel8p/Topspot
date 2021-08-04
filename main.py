@@ -17,3 +17,4 @@ if __name__ == "__main__":
 
 
 #https://youtu.be/qP9KYWrrORY?t=669
+#https://mungingdata.com/sqlite/create-database-load-csv-python/
