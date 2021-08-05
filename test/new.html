@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Demo: Build a store locator using Mapbox GL JS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
     <link
@@ -212,14 +211,30 @@
       var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-77.034084142948, 38.909671288923],
-        zoom: 15,
+        center: [7.182447026769182, 51.41014850183159], //longitude, latitude
+        zoom: 16,
         scrollZoom: true
       });
 
       var stores = {
         'type': 'FeatureCollection',
         'features': [
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+              7.182447026769182,
+              51.41014850183159
+              ]
+            },
+            "properties": {
+              "address": "Leinpfad",
+              "city": "Hattingen",
+              "country": "Germany",
+              "postalCode": "45525",
+            }
+          },
           {
             'type': 'Feature',
             'geometry': {
