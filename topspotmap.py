@@ -6,7 +6,6 @@ from spotmarker import SpotMarker
 class TopSpotMap(MapView):
     getting_spots_timer = None
     spot_names = []
-
     def start_getting_spots_in_fov(self):
         # After one second, get the spots in the field of view
         try:
@@ -44,6 +43,7 @@ class TopSpotMap(MapView):
         marker = SpotMarker()
         marker.lat = lat
         marker.lon = lon
+        marker.source = "map_marker_32x32.png"
 
         #add marker to map
         self.add_widget(marker)
