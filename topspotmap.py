@@ -20,7 +20,7 @@ class TopSpotMap(MapView):
         app = App.get_running_app()
 
         #sql_statement = "SELECT SpotName FROM spotlist WHERE x > %s AND x < %s AND y > %s AND y < %s"%(min_lon, max_lon, min_lat, max_lat)     AND x < {max_lon} AND y > {min_lat} AND y < {max_lat}
-        sql_statement = f"SELECT * FROM markets WHERE x > {min_lon} AND x < {max_lon} AND y > {min_lat} AND y < {max_lat}"
+        sql_statement = f"SELECT * FROM spotlist WHERE x > {min_lon} AND x < {max_lon} AND y > {min_lat} AND y < {max_lat}"
         app.cursor.execute(sql_statement)
         spots = app.cursor.fetchall()
 

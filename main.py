@@ -7,7 +7,7 @@ class MainApp(MDApp):
     def on_start(self):
         #init gps
         #init database
-        self.connection = sqlite3.connect("markets.db")
+        self.connection = sqlite3.connect("spotlist.db")
         self.cursor = self.connection.cursor()
         #init SearchPopupMenu
 
