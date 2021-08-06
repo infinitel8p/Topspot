@@ -1,5 +1,5 @@
 from spotpopmenu import LocationPopupMenu
-from kivy_garden.mapview import MapMarkerPopup, MapMarker
+from kivy.garden.mapview import MapMarkerPopup, MapMarker
 from spotpopmenu import LocationPopupMenu
 
 class SpotMarker(MapMarkerPopup):
