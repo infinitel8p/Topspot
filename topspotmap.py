@@ -39,10 +39,10 @@ class TopSpotMap(MapView):
         #init marker for the spot
         lat, lon = spot[3], spot[2]
         marker = SpotMarker()
-        marker.spot_data = spot
         marker.lat = lat
         marker.lon = lon
         marker.source = "map_marker_32x32.png"
+        marker.spot_data = spot
 
         #add marker to map
         self.add_widget(marker)

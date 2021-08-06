@@ -7,5 +7,6 @@ class SpotMarker(MapMarkerPopup):
 
     def on_release(self):
         menu = LocationPopupMenu(self.spot_data)
+        menu.size_hint = [.8,.9]
         menu.open()
 

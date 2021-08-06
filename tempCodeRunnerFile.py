@@ -1,1 +1,2 @@
-SearchPopupMenu
+
+from topspotmap import TopSpotMap
