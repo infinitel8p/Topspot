@@ -3,7 +3,7 @@ from locationpopupmenu import LocationPopupMenu
 
 
 class MarketMarker(MapMarkerPopup):
-    source = "marker.png"
+    #source = "marker.png"
     market_data = []
 
     def on_release(self):
