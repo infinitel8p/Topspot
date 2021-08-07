@@ -1,4 +1,3 @@
-from re import search
 from kivymd.app import MDApp
 import sqlite3
 from topspotmap import TopSpotMap
