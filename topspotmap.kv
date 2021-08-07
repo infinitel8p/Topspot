@@ -1,9 +1,11 @@
 #:kivy 2.0.0
 #:import MapView kivy.garden.mapview.MapView
+#:import GpsBlinker gpsblinker.GpsBlinker
+#:include gpsblinker.kv
 
 <TopSpotMap>:
-    lat: 51.41014850183159
-    lon: 7.182447026769182
+    lat: 51.39735
+    lon: 7.18072
     zoom: 15
     on_zoom:
         self.zoom = 4 if self.zoom < 4 else self.zoom
@@ -11,3 +13,5 @@
         self.start_getting_spots_in_fov()
     on_lon:
         self.start_getting_spots_in_fov()
+    GpsBlinker:
+        id: blinker

@@ -1,2 +1,0 @@
-
-from topspotmap import TopSpotMap

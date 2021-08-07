@@ -6,6 +6,7 @@ from spotmarker import SpotMarker
 class TopSpotMap(MapView):
     getting_spots_timer = None
     spot_names = []
+
     def start_getting_spots_in_fov(self):
         # After one second, get the spots in the field of view
         try:
@@ -13,19 +14,16 @@ class TopSpotMap(MapView):
         except:
             pass
 
-        self.getting_spots_timer = Clock.schedule_once(self.get_spots_in_fov, 1)
+        self.getting_spots_timer = Clock.schedule_once(self.get_spots_in_fov, 0.5)
 
     def get_spots_in_fov(self, *args):
         min_lat, min_lon, max_lat, max_lon = self.get_bbox()
         app = App.get_running_app()
-
         sql_statement = f"SELECT * FROM skatespots WHERE x > {min_lon} AND x < {max_lon} AND y > {min_lat} AND y < {max_lat}"
         app.cursor.execute(sql_statement)
         spots = app.cursor.fetchall()
-
         print(f"Seeing: {self.get_bbox()}")
         print(f"Spots in FOV: {len(spots)}")
-
         for spot in spots:
             name = spot[1]
             if name in self.spot_names:
@@ -43,10 +41,8 @@ class TopSpotMap(MapView):
         marker.lon = lon
         marker.source = "map_marker_32x32.png"
         marker.spot_data = spot
-
         #add marker to map
         self.add_widget(marker)
-
         #register added markers
         name = spot[1]
         self.spot_names.append(name)
