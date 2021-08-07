@@ -1,0 +1,21 @@
+#:kivy 2.0.0
+
+<GpsBLinker>:
+    default_blink_size: 20
+    blink_size: 20
+    canvas.before:
+        #outer circle
+        Color:
+            rgba: app.theme_cls.primary_color
+        RoundedRectangle:
+            radius: [root.blink_size/2.0, ]
+            size: [root.blink_size, root.blink_size]
+            pos: root.pos[0] + root.size[0]/2.0 - root.blink_size/2.0, root.pos[1] + root.size[1]/2.0 - root.blink_size/2.0
+        #inner cirle
+        Color:
+            rgb: 1,1,1
+        RoundedRectangle:
+            radius: [root.blink_size/2.0, ]
+            size: [root.blink_size, root.blink_size]
+            pos: root.pos[0] + root.size[0]/2.0 - root.blink_size/2.0, root.pos[1] + root.size[1]/2.0 - root.blink_size/2.0
+
