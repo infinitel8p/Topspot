@@ -11,7 +11,7 @@ class SearchPopupMenu(MDInputDialog):
 
     def __init__(self):
         super().__init__()
-        self.size_hint = [.6, .3]
+        self.size_hint = [.8, .3]
         self.events_callback = self.callback
 
     def open(self):
