@@ -4,7 +4,7 @@ from kivy.animation import Animation
 class GpsBlinker(MapMarker):
     def blink(self):
         # animation for blink size & marker opacity
-        animatio = Animation(opacity = 0, blink_size = 30)
+        animatio = Animation(opacity = 0, blink_size = 40)
         animatio.bind(on_complete = self.reset)
         animatio.start(self)
 
