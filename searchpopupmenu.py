@@ -1,3 +1,4 @@
+import certifi
 from kivymd.uix.dialog import MDInputDialog
 from urllib import parse
 from kivy.network.urlrequest import UrlRequest
@@ -20,7 +21,7 @@ class SearchPopupMenu(MDInputDialog):
         apikey = "alhPapHUB_qtDB3MT9R4wEud3UcR77RjD3fgTlHYiCE"
         address = parse.quote(address)
         url = f"https://geocoder.ls.hereapi.com/6.2/geocode.json?searchtext={address}&gen=9&apiKey={apikey}"
-        UrlRequest(url, on_success = self.success, on_failure = self.failure, on_error = self.error)
+        UrlRequest(url, on_success = self.success, on_failure = self.failure, on_error = self.error, ca_file=certifi.where())
 
     def success(self, urlrequest, result):
         print("Success")
