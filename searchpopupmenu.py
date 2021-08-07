@@ -1,4 +1,5 @@
 import certifi
+from kivy.clock import Clock
 from kivymd.uix.dialog import MDInputDialog
 from urllib import parse
 from kivy.network.urlrequest import UrlRequest
@@ -12,6 +13,10 @@ class SearchPopupMenu(MDInputDialog):
         super().__init__()
         self.size_hint = [.6, .3]
         self.events_callback = self.callback
+
+    def open(self):
+        super().open()
+        Clock.schedule_once(self.set_field_focus, 0.5)
 
     def callback(self, *args):
         address = self.text_field.text
