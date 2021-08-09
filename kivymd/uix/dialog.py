@@ -148,6 +148,11 @@ Builder.load_string(
     height: self.minimum_height
     padding: dp(0), dp(0), dp(10), dp(0)
 
+<ThinImageBox@BoxLayout>:
+    width: self.width
+    height: self.height
+    size_hint_y: None
+    size_hint_x: 1
 
 <ListMDDialog>
     title: ""
@@ -155,7 +160,8 @@ Builder.load_string(
         orientation: 'vertical'
         padding: dp(15)
         spacing: dp(10)
-    
+
+
         MDLabel:
             id: title
             text: root.title
@@ -165,7 +171,7 @@ Builder.load_string(
             size_hint_y: None
             text_size: self.width, None
             height: self.texture_size[1]
-    
+
         ScrollView:
             id: scroll
             size_hint_y: None
@@ -191,10 +197,15 @@ Builder.load_string(
                         size: self.size
                     Color:
                         rgba: [1,0,0,.5]
+                ThinImageBox:
+                    AsyncImage:
+                        source: root.Images
+                        size: self.width, self.height
+
                 ThinBox:
                     ThinLabel:
                         text: "Spot Name: "
-                    ThinLabelButton:
+                    ThinLabel:
                         text: root.SpotName
                 ThinBox:
                     ThinLabel:
@@ -253,8 +264,10 @@ Builder.load_string(
                 ThinBox:
                     ThinLabel:
                         text: "Images: "
-                    ThinLabel:
+                    ThinLabelButton:
                         text: root.Images
+                        on_release:
+                            webbrowser.open(self.text)
                 ThinBox:
                     ThinLabel:
                         text: "Information: "
