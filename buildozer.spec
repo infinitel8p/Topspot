@@ -43,10 +43,10 @@ requirements = python3,kivy==2.0.0,requests,certifi,plyer,kivy_garden.mapview,pi
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/TopSpotGrey.png
+presplash.filename = %(source.dir)s/Images/TopSpotGrey.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/TopSpotLogo.png
+icon.filename = %(source.dir)s/Images/TopSpotLogo.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
