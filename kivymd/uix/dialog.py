@@ -149,10 +149,10 @@ Builder.load_string(
     padding: dp(0), dp(0), dp(10), dp(0)
 
 <ThinImageBox@BoxLayout>:
-    size_hint_y: None
-    size_hint_x: 1
     width: self.width
     height: self.height
+    size_hint_y: None
+    size_hint_x: 1
 
 <ListMDDialog>
     title: ""
@@ -198,11 +198,9 @@ Builder.load_string(
                     Color:
                         rgba: [1,0,0,.5]
                 ThinImageBox:
-                    canvas:
-                        Rectangle:
-                            pos: self.pos
-                            size: self.size
-                            source: 'C:/Users/Ludo/Downloads/138728.jpg'
+                    AsyncImage:
+                        source: root.Images
+                        size: self.width, self.height
 
                 ThinBox:
                     ThinLabel:
@@ -266,8 +264,10 @@ Builder.load_string(
                 ThinBox:
                     ThinLabel:
                         text: "Images: "
-                    ThinLabel:
+                    ThinLabelButton:
                         text: root.Images
+                        on_release:
+                            webbrowser.open(self.text)
                 ThinBox:
                     ThinLabel:
                         text: "Information: "
