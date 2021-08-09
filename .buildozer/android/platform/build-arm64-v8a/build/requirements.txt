@@ -1,7 +1,0 @@
-certifi
-charset-normalizer
-idna
-kivy_garden.mapview
-plyer
-requests
-urllib3
