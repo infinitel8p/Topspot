@@ -1,5 +1,5 @@
 from kivy.lang import Builder
-
+from kivymd.uix.datatables import MDDataTable
 from kivymd.app import MDApp
 
 KV = '''
@@ -26,8 +26,7 @@ MDScreen:
         MDSeparator:
             height: "1dp"
 
-        MDLabel:
-            text: "Body"
+
 '''
 
 
