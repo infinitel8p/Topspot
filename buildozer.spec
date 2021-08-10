@@ -19,10 +19,10 @@ source.include_exts = py,png,jpg,kv,atlas,ttf,db
 #source.include_patterns = assets/*,images/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
-#source.exclude_exts = spec
+source.exclude_exts = spec
 
 # (list) List of directory to exclude (let empty to not exclude anything)
-#source.exclude_dirs = tests, bin, venv, SQLiteDatabaseBrowserPortable
+source.exclude_dirs = Images, bin, GeoData
 
 # (list) List of exclusions using pattern matching
 #source.exclude_patterns = license,images/*/*.jpg
@@ -43,10 +43,10 @@ requirements = python3,kivy==2.0.0,requests,certifi,plyer,kivy_garden.mapview,pi
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/TopSpotGrey.png
+presplash.filename = %(source.dir)s/Images/TopSpotGrey.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/TopSpotLogo.png
+icon.filename = %(source.dir)s/Images/TopSpotLogo.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
