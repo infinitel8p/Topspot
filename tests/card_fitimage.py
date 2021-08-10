@@ -8,7 +8,7 @@ from kivymd.uix.card import MDCard
 Builder.load_string(
     '''
 <Card>:
-    elevation: 10
+    elevation: 20
     radius: [36, ]
 
     FitImage:
