@@ -11,84 +11,19 @@ Builder.load_string(
     elevation: 20
     orientation: "vertical"
     padding: "8dp"
+    size_hint: 1.6,1.1
     pos_hint: {"center_x": .5, "center_y": .5}
     Carousel:
         FitImage:
             id: bg_image
             source: "Images/TopSpotLogo.jpg"
-            size_hint_y: 1
+            size_hint_y: .4
             pos_hint: {"top": 1}
         FitImage:
             id: bg_image
             size_hint_y: .4
             pos_hint: {"top": 1}
             source: "Images/TopSpotGrey.jpg"
-
-    ScrollView:
-        MDGridLayout:
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
-
-            MDLabel:
-                text: "Title"
-                theme_text_color: "Secondary"
-                adaptive_height: True
 ''')
 
 class Card(MDCard):
