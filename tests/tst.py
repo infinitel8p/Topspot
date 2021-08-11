@@ -17,13 +17,16 @@ kv = """
             size_hint_y: 1
 
             MDSwiperItem:
-                AsyncImage:
-                    source: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
-                    radius: [10,]
+                FitImage:
+                    AsyncImage:
+                        source: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                        radius: [10,]
+                        texture: self.texture
             MDSwiperItem:
-                AsyncImage:
-                    source: "https://lh3.googleusercontent.com/proxy/XxXN99jBF8jqHLl3WznqDH1YB1WQ0RTvWZqTskkUT4vQxsAljzv_lV-TnC47RXdIjz4Y4SDwYj_HH9JxcNNzT7f0dmv1w0G4WmYdiYtNi74svGfxMApx4QId35OU7jHpg43KO01fhBymfA"
-                    radius: [10,]
+                FitImage:
+                    AsyncImage:
+                        source: "https://lh3.googleusercontent.com/proxy/XxXN99jBF8jqHLl3WznqDH1YB1WQ0RTvWZqTskkUT4vQxsAljzv_lV-TnC47RXdIjz4Y4SDwYj_HH9JxcNNzT7f0dmv1w0G4WmYdiYtNi74svGfxMApx4QId35OU7jHpg43KO01fhBymfA"
+                        radius: [10,]
             MDSwiperItem:
                 FitImage:
                     source: "Images\Screenshots\pic1_mobile.jpg"
