@@ -148,11 +148,9 @@ Builder.load_string(
     height: self.minimum_height
     padding: dp(0), dp(0), dp(10), dp(0)
 
-<ThinImageBox@BoxLayout>:
+<ThinImageBox@MDCard>:
     width: self.width
     height: self.height
-    size_hint_y: None
-    size_hint_x: 1
 
 <ListMDDialog>
     title: ""
@@ -197,9 +195,11 @@ Builder.load_string(
                         size: self.size
                     Color:
                         rgba: [1,0,0,.5]
-                ThinImageBox:
-                    AsyncImage:
-                        source: root.Images
+                BoxLayout:
+                    MDLabel:
+                        text: "testestestsetsetsetsetsettestestestsetsetsetsetsettestestestsetsetsetsetset"
+                    Image:
+                        source: "images/TopSpotLogo.png"
                         size: self.width, self.height
 
                 ThinBox:
