@@ -10,3 +10,5 @@ class LocationPopupMenu(ListMDDialog):
             attribute_name = headers[i]
             attribute_value = str(spot_data[i])
             setattr(self, attribute_name, attribute_value)
+
+        print(self.Images)

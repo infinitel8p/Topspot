@@ -195,12 +195,6 @@ Builder.load_string(
                         size: self.size
                     Color:
                         rgba: [1,0,0,.5]
-                BoxLayout:
-                    MDLabel:
-                        text: "testestestsetsetsetsetsettestestestsetsetsetsetsettestestestsetsetsetsetset"
-                    Image:
-                        source: "images/TopSpotLogo.png"
-                        size: self.width, self.height
 
                 ThinBox:
                     ThinLabel:

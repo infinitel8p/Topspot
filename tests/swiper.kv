@@ -1,0 +1,24 @@
+#:kivy 2.0.0
+<MySwiper@MDSwiperItem>
+    FitImage:
+        source: "Images\Screenshots\pic1_mobile.jpg"
+        radius: [20,]
+
+MDScreen:
+
+    MDToolbar:
+        id: toolbar
+        title: "Swiper APP"
+        elevation: 10
+        pos_hint: {"top": 1}
+
+    MDSwiper:
+        size_hint_y: None
+        height: root.height - toolbar.height - dp(40)
+        y: root.height - self.height - toolbar.height - dp(20)
+
+        MySwiper:
+        MySwiper:
+        MySwiper:
+        MySwiper:
+        MySwiper:
