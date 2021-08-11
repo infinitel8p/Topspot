@@ -5,9 +5,9 @@ from searchpopupmenu import SearchPopupMenu
 from gpshelper import GpsHelper
 import urllib.request
 
-print('Beginning database download with urllib2...')
-url = 'https://github.com/infinitel8p/Topspot/blob/master/spotlist.db?raw=true'
-urllib.request.urlretrieve(url, 'spotlist.db')
+print("Beginning database download with urllib2...")
+databse_url = "https://github.com/infinitel8p/Topspot/blob/master/spotlist.db?raw=true"
+urllib.request.urlretrieve(databse_url, "spotlist.db")
 
 class MainApp(MDApp):
     connection = None
