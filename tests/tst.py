@@ -10,7 +10,7 @@ kv = """
     size_hint: 0.8, 0.8
     pos_hint: {"center_x": .5, "center_y": .5}
 
-    RelativeLayout:
+    BoxLayout:
         adaptive_height: True
         spacing: "12dp"
         MDSwiper:

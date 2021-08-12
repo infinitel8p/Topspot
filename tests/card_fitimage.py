@@ -13,17 +13,20 @@ Builder.load_string(
     padding: "8dp"
     size_hint: 1.6,1.1
     pos_hint: {"center_x": .5, "center_y": .5}
-    Carousel:
-        FitImage:
-            id: bg_image
-            source: "Images/TopSpotLogo.jpg"
-            size_hint_y: .4
-            pos_hint: {"top": 1}
-        FitImage:
-            id: bg_image
-            size_hint_y: .4
-            pos_hint: {"top": 1}
-            source: "Images/TopSpotGrey.jpg"
+    RelativeLayout:
+        adaptive_height: True
+        spacing: "12dp"
+        Carousel:
+            FitImage:
+                id: bg_image
+                source: "Images/TopSpotLogo.jpg"
+                size_hint_y: .4
+                pos_hint: {"top": 1}
+            FitImage:
+                id: bg_image
+                size_hint_y: .4
+                pos_hint: {"top": 1}
+                source: "Images/TopSpotGrey.jpg"
 ''')
 
 class Card(MDCard):

@@ -1,105 +1,91 @@
 from kivymd.app import MDApp
+from kivy.clock import Clock
 from kivy.lang import Builder
-from kivymd.uix.card import MDCard
-from kivymd.uix.screen import MDScreen
-from kivymd.uix.toolbar import MDToolbar
-from kivymd.uix.label import MDLabel
-from kivymd.uix.floatlayout import MDFloatLayout
-from kivymd.uix.button import MDRaisedButton
+from kivy.factory import Factory
+from kivy.properties import StringProperty
 
-kv = """
-<BlankMDCard>:
+from kivymd.uix.button import MDIconButton
+from kivymd.icon_definitions import md_icons
+from kivymd.uix.list import ILeftBodyTouch, OneLineIconListItem
+from kivymd.theming import ThemeManager
+from kivymd.utils import asynckivy
 
-    orientation: "vertical"
-    padding: "8dp"
-    size_hint: 0.8, 0.8
-    pos_hint: {"center_x": .5, "center_y": .5}
+Builder.load_string('''
+<ItemForList>
+    text: root.text
 
-    RelativeLayout:
-        adaptive_height: True
-        spacing: "12dp"
-        MDSwiper:
-            size_hint_y: 1
-
-            MDSwiperItem:
-                FitImage:
-                    AsyncImage:
-                        source: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
-                        radius: [10,]
-                        texture: self.texture
-            MDSwiperItem:
-                FitImage:
-                    AsyncImage:
-                        source: "https://lh3.googleusercontent.com/proxy/XxXN99jBF8jqHLl3WznqDH1YB1WQ0RTvWZqTskkUT4vQxsAljzv_lV-TnC47RXdIjz4Y4SDwYj_HH9JxcNNzT7f0dmv1w0G4WmYdiYtNi74svGfxMApx4QId35OU7jHpg43KO01fhBymfA"
-                        radius: [10,]
-            MDSwiperItem:
-                FitImage:
-                    source: "Images\Screenshots\pic1_mobile.jpg"
-                    radius: [10,]
-
-    MDLabel:
-        text: "The Title Goes Here"
-        theme_text_color: "Secondary"
-        size_hint_y: 0.2
-
-    MDSeparator:
-        height: "1dp"
-
-    MDLabel:
-        text: "The Body"
-        size_hint_y: 0.2
-
-    MDRaisedButton:
-        text: 'Add MDCard'
-        on_release: app.remove_card()
-        pos_hint: {'center_x': 0.5}
-
-"""
+    IconLeftSampleWidget:
+        icon: root.icon
 
 
-class BlankMDCard(MDCard):
+<Example@FloatLayout>
+
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        MDToolbar:
+            title: app.title
+            md_bg_color: app.theme_cls.primary_color
+            background_palette: 'Primary'
+            elevation: 10
+            left_action_items: [['menu', lambda x: x]]
+
+        MDScrollViewRefreshLayout:
+            id: refresh_layout
+            refresh_callback: app.refresh_callback
+            root_layout: root
+
+            MDGridLayout:
+                id: box
+                adaptive_height: True
+                cols: 1
+''')
+
+
+class IconLeftSampleWidget(ILeftBodyTouch, MDIconButton):
     pass
 
 
-class AddCardApp(MDApp):
+class ItemForList(OneLineIconListItem):
+    icon = StringProperty()
+
+
+class Example(MDApp):
+    title = 'Example Refresh Layout'
+    screen = None
+    x = 0
+    y = 15
+
     def build(self):
-        self.status = 0
-        self.screen = MDScreen()
-
-        self.toolbar = MDToolbar(title = "Swiper APP")
-        self.toolbar.id =  "toolbar"
-        self.toolbar.pos_hint = {"top": 1}
-        self.toolbar.orientation = 'vertical'
-        self.screen.add_widget(self.toolbar)
-
-        self.label = MDLabel()
-        self.label.text = 'Add an MDCard Widget'
-        self.label.halign = 'center'
-        self.label.size_hint_y = None
-        self.label.height = 24
-        self.screen.add_widget(self.label)
-
-        self.float_layout = MDFloatLayout()
-        self.float_layout.id = "card"
-        self.screen.add_widget(self.float_layout)
-
-        self.button = MDRaisedButton()
-        self.button.text = 'Add MDCard'
-        self.button.on_release = self.add_card()
-        self.button.pos_hint = {'center_x': 0.5}
-        self.screen.add_widget(self.button)
+        self.screen = Factory.Example()
+        self.set_list()
 
         return self.screen
 
-    def add_card(self):
-        self.card = BlankMDCard()
-        if self.status == 0:
-            self.status = 1
-            self.screen.add_widget(self.card) # add the card to the enclosing layout
-    def remove_card(self):
-        if self.status == 1:
-            self.status = 0
-            self.remove_widget(self.card)  # add the card to the enclosing layout# add the card to the enclosing layout
+    def set_list(self):
+        async def set_list():
+            names_icons_list = list(md_icons.keys())[self.x:self.y]
+            for name_icon in names_icons_list:
+                await asynckivy.sleep(0)
+                self.screen.ids.box.add_widget(
+                    ItemForList(icon=name_icon, text=name_icon))
+        asynckivy.start(set_list())
 
-if __name__ == '__main__':
-    AddCardApp().run()
+    def refresh_callback(self, *args):
+        '''A method that updates the state of your application
+        while the spinner remains on the screen.'''
+
+        def refresh_callback(interval):
+            self.screen.ids.box.clear_widgets()
+            if self.x == 0:
+                self.x, self.y = 15, 30
+            else:
+                self.x, self.y = 0, 15
+            self.set_list()
+            self.screen.ids.refresh_layout.refresh_done()
+            self.tick = 0
+
+        Clock.schedule_once(refresh_callback, 1)
+
+
+Example().run()
