@@ -11,17 +11,18 @@ class LocationPopupMenu(ListMDDialog):
             attribute_name = headers[i]
             attribute_value = str(spot_data[i])
             setattr(self, attribute_name, attribute_value)
-
+        print(self.Image1)
+        print(self.Image2)
+        print(self.Image3)
         try:
-            urllib.request.urlretrieve(str(self.Images), "image1.png")
+            urllib.request.urlretrieve(str(self.Image1), "image1.png")
         except:
             urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", "image1.png")
-
         try:
-            urllib.request.urlretrieve(str(self.Images), "image2.png")
+            urllib.request.urlretrieve(str(self.Image2), "image2.png")
         except:
             urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", "image2.png")
         try:
-             urllib.request.urlretrieve(str(self.Images), "image3.png")
+             urllib.request.urlretrieve(str(self.Image3), "image3.png")
         except:
             urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", "image3.png")
