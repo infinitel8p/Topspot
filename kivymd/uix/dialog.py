@@ -199,7 +199,7 @@ Builder.load_string(
                         rgba: [1,0,0,.5]
                 ThinImageBox:
                     AsyncImage:
-                        source: root.Images
+                        source: root.Image1
                         size: self.width, self.height
 
                 ThinBox:
@@ -267,7 +267,7 @@ Builder.load_string(
                     ThinLabelButton:
                         text: "Click here to open Image"
                         on_release:
-                            webbrowser.open(root.Images)
+                            webbrowser.open(root.Image1)
                 ThinBox:
                     ThinLabel:
                         text: "Information: "
