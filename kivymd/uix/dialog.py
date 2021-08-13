@@ -191,18 +191,16 @@ Builder.load_string(
                     FitImage:
                         source: "image1.png"
                         size_hint_y: 1
-                        pos_hint: {"top": 1}
                         radius: [10,]
                     FitImage:
                         source: "image2.png"
                         size_hint_y: 1
-                        pos_hint: {"top": 1}
                         radius: [10,]
                     FitImage:
                         source: "image3.png"
                         size_hint_y: 1
-                        pos_hint: {"top": 1}
                         radius: [10,]
+
                 MDList:
                     id: list_layout
                     height: self.minimum_height
