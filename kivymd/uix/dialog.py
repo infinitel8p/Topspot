@@ -190,15 +190,15 @@ Builder.load_string(
                 Carousel:
                     id: carousel
                     FitImage:
-                        source: "image1.png"
+                        source: "image1%s.png"%(root.SpotName)
                         size_hint_y: 1
                         radius: [10,]
                     FitImage:
-                        source: "image2.png"
+                        source: "image2%s.png"%(root.SpotName)
                         size_hint_y: 1
                         radius: [10,]
                     FitImage:
-                        source: "image3.png"
+                        source: "image3%s.png"%(root.SpotName)
                         size_hint_y: 1
                         radius: [10,]
 
@@ -277,9 +277,17 @@ Builder.load_string(
                         ThinLabel:
                             text: "Images: "
                         ThinLabelButton:
-                            text: "Click here to open Image"
+                            text: "Image 1"
                             on_release:
                                 webbrowser.open(root.Image1)
+                        ThinLabelButton:
+                            text: "Image 2"
+                            on_release:
+                                webbrowser.open(root.Image2)
+                        ThinLabelButton:
+                            text: "Image 3"
+                            on_release:
+                                webbrowser.open(root.Image3)
                     ThinBox:
                         ThinLabel:
                             text: "Information: "

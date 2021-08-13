@@ -15,14 +15,14 @@ class LocationPopupMenu(ListMDDialog):
         print(self.Image2)
         print(self.Image3)
         try:
-            urllib.request.urlretrieve(str(self.Image1), "image1.png")
+            urllib.request.urlretrieve(str(self.Image1), f"image1{self.SpotName}.png")
         except:
-            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", "image1.png")
+            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", f"image1{self.SpotName}.png")
         try:
-            urllib.request.urlretrieve(str(self.Image2), "image2.png")
+            urllib.request.urlretrieve(str(self.Image2), f"image2{self.SpotName}.png")
         except:
-            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", "image2.png")
+            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", f"image2{self.SpotName}.png")
         try:
-             urllib.request.urlretrieve(str(self.Image3), "image3.png")
+             urllib.request.urlretrieve(str(self.Image3), f"image3{self.SpotName}.png")
         except:
-            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", "image3.png")
+            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", f"image3{self.SpotName}.png")
