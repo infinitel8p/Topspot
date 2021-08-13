@@ -228,7 +228,7 @@ Builder.load_string(
                         ThinLabelButton:
                             text: "Get a route to the spot"
                             on_release:
-                                webbrowser.open(self.text)
+                                webbrowser.open(root.MapsLink)
                     ThinBox:
                         ThinLabel:
                             text: "Website: "
