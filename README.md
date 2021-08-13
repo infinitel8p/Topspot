@@ -12,3 +12,9 @@ Mobile Version            | Tablet Version
 ![pic2_mobile](https://user-images.githubusercontent.com/50703696/128814395-f79a27b9-545d-4961-9758-f2320c398223.jpg)|![pic2_tablet](https://user-images.githubusercontent.com/50703696/128813887-3a0a44a2-1f0c-499c-9147-47526dcd7dcf.png)
 ![pic3_mobile](https://user-images.githubusercontent.com/50703696/128814400-3040941b-3029-4e5c-b57d-31907a7616bf.jpg)|![pic3_tablet](https://user-images.githubusercontent.com/50703696/128813903-cdf95102-9880-47c8-9b73-84b51fad3ac4.png)
 ![pic4_mobile](https://user-images.githubusercontent.com/50703696/128814402-955b47a9-8a27-410a-ad11-49c1c232624d.jpg)|![pic4_tablet](https://user-images.githubusercontent.com/50703696/128813913-5d2459cf-936d-491c-83e3-19a6e1be7caf.png)
+
+
+### Build .aab file for upload to playstore
+
+ - copy `/home/ludo/Topspot/.buildozer/android/platform/build-arm64-v8a/dists/topspot__arm64-v8a` to desktop with android studio
+
