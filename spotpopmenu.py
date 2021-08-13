@@ -16,32 +16,32 @@ class LocationPopupMenu(ListMDDialog):
         print(self.Image2)
         print(self.Image3)
         try:
-            response = requests.get(str(self.Image1), cert=certifi.where())
+            response = requests.get(str(self.Image1), verify=certifi.where())
             file = open(f"image1{self.SpotName}.png", "wb")
             file.write(response.content)
             file.close()
         except:
-            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", cert=certifi.where())
+            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
             file = open(f"image1{self.SpotName}.png", "wb")
             file.write(response.content)
             file.close()
         try:
-            response = requests.get(str(self.Image2), cert=certifi.where())
+            response = requests.get(str(self.Image2), verify=certifi.where())
             file = open(f"image2{self.SpotName}.png", "wb")
             file.write(response.content)
             file.close()
         except:
-            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", cert=certifi.where())
+            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
             file = open(f"image2{self.SpotName}.png", "wb")
             file.write(response.content)
             file.close()
         try:
-            response = requests.get(str(self.Image3), cert=certifi.where())
+            response = requests.get(str(self.Image3), verify=certifi.where())
             file = open(f"image3{self.SpotName}.png", "wb")
             file.write(response.content)
             file.close()
         except:
-            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", cert=certifi.where())
+            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
             file = open(f"image3{self.SpotName}.png", "wb")
             file.write(response.content)
             file.close()
