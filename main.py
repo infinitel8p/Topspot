@@ -6,12 +6,16 @@ from gpshelper import GpsHelper
 import requests
 import certifi
 
-print("Beginning database download with urllib2...")
-databse_url = "https://github.com/infinitel8p/Topspot/blob/master/spotlist.db?raw=true"
-response = requests.get(databse_url, verify=certifi.where()) #verify=False
-file = open("spotlist.db", "wb")
-file.write(response.content)
-file.close()
+try:
+    print("Beginning database download with urllib2...")
+    databse_url = "https://github.com/infinitel8p/Topspot/blob/master/spotlist.db?raw=true"
+    response = requests.get(databse_url, verify=certifi.where()) #verify=False
+    file = open("spotlist.db", "wb")
+    file.write(response.content)
+    file.close()
+except:
+    pass
+
 class MainApp(MDApp):
     connection = None
     cursor = None
