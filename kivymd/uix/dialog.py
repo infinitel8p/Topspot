@@ -193,15 +193,15 @@ Builder.load_string(
                     loop: True
                     on_touch_down: (carousel.load_next())
                     FitImage:
-                        source: "image1%s%s.png"%(root.SpotName, root.ID)
+                        source: "image1%s.png"%(root.SpotName+root.ID)
                         size_hint_y: 1
                         radius: [10,]
                     FitImage:
-                        source: "image2%s%s.png"%(root.SpotName, root.ID)
+                        source: "image2%s.png"%(root.SpotName+root.ID)
                         size_hint_y: 1
                         radius: [10,]
                     FitImage:
-                        source: "image3%s%s.png"%(root.SpotName, root.ID)
+                        source: "image3%s.png"%(root.SpotName+root.ID)
                         size_hint_y: 1
                         radius: [10,]
 
@@ -463,6 +463,7 @@ class BaseDialog(ThemableBehavior, ModalView):
             )
 
 class ListMDDialog(BaseDialog):
+    ID = StringProperty("Missing data")
     SpotName = StringProperty("Missing data")
     MapsLink = StringProperty("Missing data")
     Website = StringProperty("Missing data")
@@ -474,7 +475,6 @@ class ListMDDialog(BaseDialog):
     Season1Time = StringProperty("Missing data")
     Season2Date = StringProperty("Missing data")
     Season2Time = StringProperty("Missing data")
-    Images = StringProperty("Missing data")
     Information = StringProperty("Missing data")
     updateTime = StringProperty("Missing data")
     background = StringProperty('{}ios_bg_mod.png'.format(images_path))

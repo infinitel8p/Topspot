@@ -12,37 +12,33 @@ class LocationPopupMenu(ListMDDialog):
             attribute_name = headers[i]
             attribute_value = str(spot_data[i])
             setattr(self, attribute_name, attribute_value)
-        print(self.id)
-        print(self.x)
-        print(self.y)
-        print(self.SpotName)
         try:
             response = requests.get(str(self.Image1), verify=certifi.where())
-            file = open(f"image1{self.SpotName}.png", "wb")
+            file = open(f"image1{self.SpotName}{self.ID}.png", "wb")
             file.write(response.content)
             file.close()
         except:
             response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
-            file = open(f"image1{self.SpotName}.png", "wb")
+            file = open(f"image1{self.SpotName}{self.ID}.png", "wb")
             file.write(response.content)
             file.close()
         try:
             response = requests.get(str(self.Image2), verify=certifi.where())
-            file = open(f"image2{self.SpotName}.png", "wb")
+            file = open(f"image2{self.SpotName}{self.ID}.png", "wb")
             file.write(response.content)
             file.close()
         except:
             response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
-            file = open(f"image2{self.SpotName}.png", "wb")
+            file = open(f"image2{self.SpotName}{self.ID}.png", "wb")
             file.write(response.content)
             file.close()
         try:
             response = requests.get(str(self.Image3), verify=certifi.where())
-            file = open(f"image3{self.SpotName}.png", "wb")
+            file = open(f"image3{self.SpotName}{self.ID}.png", "wb")
             file.write(response.content)
             file.close()
         except:
             response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
-            file = open(f"image3{self.SpotName}.png", "wb")
+            file = open(f"image3{self.SpotName}{self.ID}.png", "wb")
             file.write(response.content)
             file.close()
