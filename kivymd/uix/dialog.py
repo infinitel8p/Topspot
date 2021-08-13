@@ -148,11 +148,9 @@ Builder.load_string(
     height: self.minimum_height
     padding: dp(0), dp(0), dp(10), dp(0)
 
-<ThinImageBox@BoxLayout>:
+<ThinImageBox@MDCard>:
     width: self.width
     height: self.height
-    size_hint_y: None
-    size_hint_x: 1
 
 <ListMDDialog>
     title: ""
@@ -172,9 +170,9 @@ Builder.load_string(
             text_size: self.width, None
             height: self.texture_size[1]
 
+
         ScrollView:
             id: scroll
-            size_hint_y: None
             height:
                 root.height - (title.height + dp(48)\
                 + sep.height)
@@ -185,6 +183,113 @@ Builder.load_string(
                     size: self.size
                     #source: '{}dialog_in_fade.png'.format(images_path)
                     source: '{}transparent.png'.format(images_path)
+
+
+            BoxLayout:
+                orientation: "vertical"
+                Carousel:
+                    id: carousel
+                    FitImage:
+                        source: "image1.png"
+                        size_hint_y: 1
+                        radius: [10,]
+                    FitImage:
+                        source: "image2.png"
+                        size_hint_y: 1
+                        radius: [10,]
+                    FitImage:
+                        source: "image3.png"
+                        size_hint_y: 1
+                        radius: [10,]
+
+                MDList:
+                    id: list_layout
+                    height: self.minimum_height
+                    spacing: dp(15)
+                    canvas.before:
+                        Rectangle:
+                            pos: self.pos
+                            size: self.size
+                        Color:
+                            rgba: [1,0,0,.5]
+
+
+                    ThinBox:
+                        ThinLabel:
+                            text: "Spot Name: "
+                        ThinLabel:
+                            text: root.SpotName
+                    ThinBox:
+                        ThinLabel:
+                            text: "Google Maps: "
+                        ThinLabelButton:
+                            text: "Get a route to the spot"
+                            on_release:
+                                webbrowser.open(self.text)
+                    ThinBox:
+                        ThinLabel:
+                            text: "Website: "
+                        ThinLabelButton:
+                            text: root.Website
+                            on_release:
+                                webbrowser.open(self.text)
+                    ThinBox:
+                        ThinLabel:
+                            text: "Street: "
+                        ThinLabel:
+                            text: root.Street
+                    ThinBox:
+                        ThinLabel:
+                            text: "City: "
+                        ThinLabel:
+                            text: root.City
+                    ThinBox:
+                        ThinLabel:
+                            text: "Country: "
+                        ThinLabel:
+                            text: root.Country
+                    ThinBox:
+                        ThinLabel:
+                            text: "PLZ: "
+                        ThinLabel:
+                            text: root.PLZ
+                    ThinBox:
+                        ThinLabel:
+                            text: "Season 1 Date: "
+                        ThinLabel:
+                            text: root.Season1Date
+                    ThinBox:
+                        ThinLabel:
+                            text: "Season 1 Hours: "
+                        ThinLabel:
+                            text: root.Season1Time
+                    ThinBox:
+                        ThinLabel:
+                            text: "Season 2 Date: "
+                        ThinLabel:
+                            text: root.Season2Date
+                    ThinBox:
+                        ThinLabel:
+                            text: "Season 2 Hours: "
+                        ThinLabel:
+                            text: root.Season2Time
+                    ThinBox:
+                        ThinLabel:
+                            text: "Images: "
+                        ThinLabelButton:
+                            text: "Click here to open Image"
+                            on_release:
+                                webbrowser.open(root.Image1)
+                    ThinBox:
+                        ThinLabel:
+                            text: "Information: "
+                        ThinLabel:
+                            text: root.Information
+                    ThinBox:
+                        ThinLabel:
+                            text: "Last updated: "
+                        ThinLabel:
+                            text: root.updateTime
 
             MDList:
                 id: list_layout
@@ -278,6 +383,7 @@ Builder.load_string(
                         text: "Last updated: "
                     ThinLabel:
                         text: root.updateTime
+
         MDSeparator:
             id: sep
 
