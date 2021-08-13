@@ -193,15 +193,15 @@ Builder.load_string(
                     loop: True
                     on_touch_down: (carousel.load_next())
                     FitImage:
-                        source: "image1%s%s.png"%(root.SpotName, root.id)
+                        source: "image1%s%s.png"%(root.SpotName, root.ids)
                         size_hint_y: 1
                         radius: [10,]
                     FitImage:
-                        source: "image2%s%s.png"%(root.SpotName, root.id)
+                        source: "image2%s%s.png"%(root.SpotName, root.ids)
                         size_hint_y: 1
                         radius: [10,]
                     FitImage:
-                        source: "image3%s%s.png"%(root.SpotName, root.id)
+                        source: "image3%s%s.png"%(root.SpotName, root.ids)
                         size_hint_y: 1
                         radius: [10,]
 
