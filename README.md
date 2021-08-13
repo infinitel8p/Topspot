@@ -20,6 +20,8 @@ Mobile Version            | Tablet Version
  - copy `/home/ludo/Topspot/.buildozer/android/platform/build-arm64-v8a/dists/topspot__arm64-v8a` to a desktop with android studio
  - go to `File > Open`
  - open the `/.buildozer/android/platform/build-arm64-v8a/dists/topspot__arm64-v8a`
- - If Android Studio offers to update gradle let it update else manually update like this: go to the `gradle.properties (Global Properties)` and change the `dependencies` string to `dependencies {classpath 'com.android.tools.build:gradle:7.0.0'}`, then go to `gradle-wrapper.properties (Gradle Version)` `distributionUrl=https\://services.gradle.org/distributions/gradle-7.0.2-all.zip`
- - buildToolsVersion `'31.0.0'`
+ - If Android Studio offers to update gradle let it update else manually update like this: go to the `gradle.properties (Global Properties)` file and change the dependencies string to `dependencies {classpath 'com.android.tools.build:gradle:7.0.0'}`, then go to `gradle-wrapper.properties (Gradle Version)`  and change the distributionUrl to `distributionUrl=https\://services.gradle.org/distributions/gradle-7.0.2-all.zip`
+ - check if there is a error with the `buildToolsVersion` inside the build.gradle. Mine is `'31.0.0'`
+ - go to File > Settings > Build, Execution, Deployment > Build Tools > Gradle and check the Fradle JDK, it should be Java 11
+ - Make Project `Strg + F9`
 
