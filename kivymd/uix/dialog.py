@@ -187,8 +187,11 @@ Builder.load_string(
 
             BoxLayout:
                 orientation: "vertical"
+                size: root.width, root.height
                 Carousel:
                     id: carousel
+                    loop: True
+                    on_touch_down: (carousel.load_next())
                     FitImage:
                         source: "image1%s.png"%(root.SpotName)
                         size_hint_y: 1
