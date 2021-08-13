@@ -3,12 +3,15 @@ import sqlite3
 from topspotmap import TopSpotMap
 from searchpopupmenu import SearchPopupMenu
 from gpshelper import GpsHelper
-import urllib.request
+import requests
+import certifi
 
 print("Beginning database download with urllib2...")
 databse_url = "https://github.com/infinitel8p/Topspot/blob/master/spotlist.db?raw=true"
-urllib.request.urlretrieve(databse_url, "spotlist.db")
-
+response = requests.get(databse_url, cert=certifi.where()) #verify=True
+file = open("spotlist.db", "wb")
+file.write(response.content)
+file.close()
 class MainApp(MDApp):
     connection = None
     cursor = None

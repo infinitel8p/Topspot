@@ -1,5 +1,6 @@
 from kivymd.uix.dialog import ListMDDialog
-import urllib.request
+import requests
+import certifi
 
 class LocationPopupMenu(ListMDDialog):
     def __init__(self, spot_data):
@@ -15,14 +16,32 @@ class LocationPopupMenu(ListMDDialog):
         print(self.Image2)
         print(self.Image3)
         try:
-            urllib.request.urlretrieve(str(self.Image1), f"image1{self.SpotName}.png")
+            response = requests.get(str(self.Image1), cert=certifi.where())
+            file = open(f"image1{self.SpotName}.png", "wb")
+            file.write(response.content)
+            file.close()
         except:
-            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", f"image1{self.SpotName}.png")
+            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", cert=certifi.where())
+            file = open(f"image1{self.SpotName}.png", "wb")
+            file.write(response.content)
+            file.close()
         try:
-            urllib.request.urlretrieve(str(self.Image2), f"image2{self.SpotName}.png")
+            response = requests.get(str(self.Image2), cert=certifi.where())
+            file = open(f"image2{self.SpotName}.png", "wb")
+            file.write(response.content)
+            file.close()
         except:
-            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", f"image2{self.SpotName}.png")
+            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", cert=certifi.where())
+            file = open(f"image2{self.SpotName}.png", "wb")
+            file.write(response.content)
+            file.close()
         try:
-             urllib.request.urlretrieve(str(self.Image3), f"image3{self.SpotName}.png")
+            response = requests.get(str(self.Image3), cert=certifi.where())
+            file = open(f"image3{self.SpotName}.png", "wb")
+            file.write(response.content)
+            file.close()
         except:
-            urllib.request.urlretrieve("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", f"image3{self.SpotName}.png")
+            response = requests.get("https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", cert=certifi.where())
+            file = open(f"image3{self.SpotName}.png", "wb")
+            file.write(response.content)
+            file.close()
