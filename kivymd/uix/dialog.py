@@ -184,6 +184,7 @@ Builder.load_string(
                     #source: '{}dialog_in_fade.png'.format(images_path)
                     source: '{}transparent.png'.format(images_path)
 
+
             BoxLayout:
                 orientation: "vertical"
                 Carousel:
@@ -289,6 +290,100 @@ Builder.load_string(
                             text: "Last updated: "
                         ThinLabel:
                             text: root.updateTime
+
+            MDList:
+                id: list_layout
+                size_hint_y: None
+                height: self.minimum_height
+                spacing: dp(15)
+                canvas.before:
+                    Rectangle:
+                        pos: self.pos
+                        size: self.size
+                    Color:
+                        rgba: [1,0,0,.5]
+                ThinImageBox:
+                    AsyncImage:
+                        source: root.Image1
+                        size: self.width, self.height
+
+                ThinBox:
+                    ThinLabel:
+                        text: "Spot Name: "
+                    ThinLabel:
+                        text: root.SpotName
+                ThinBox:
+                    ThinLabel:
+                        text: "Google Maps: "
+                    ThinLabelButton:
+                        text: root.MapsLink
+                        on_release:
+                            webbrowser.open(self.text)
+                ThinBox:
+                    ThinLabel:
+                        text: "Website: "
+                    ThinLabelButton:
+                        text: root.Website
+                        on_release:
+                            webbrowser.open(self.text)
+                ThinBox:
+                    ThinLabel:
+                        text: "Street: "
+                    ThinLabel:
+                        text: root.Street
+                ThinBox:
+                    ThinLabel:
+                        text: "City: "
+                    ThinLabel:
+                        text: root.City
+                ThinBox:
+                    ThinLabel:
+                        text: "Country: "
+                    ThinLabel:
+                        text: root.Country
+                ThinBox:
+                    ThinLabel:
+                        text: "PLZ: "
+                    ThinLabel:
+                        text: root.PLZ
+                ThinBox:
+                    ThinLabel:
+                        text: "Season 1 Date: "
+                    ThinLabel:
+                        text: root.Season1Date
+                ThinBox:
+                    ThinLabel:
+                        text: "Season 1 Hours: "
+                    ThinLabel:
+                        text: root.Season1Time
+                ThinBox:
+                    ThinLabel:
+                        text: "Season 2 Date: "
+                    ThinLabel:
+                        text: root.Season2Date
+                ThinBox:
+                    ThinLabel:
+                        text: "Season 2 Hours: "
+                    ThinLabel:
+                        text: root.Season2Time
+                ThinBox:
+                    ThinLabel:
+                        text: "Images: "
+                    ThinLabelButton:
+                        text: "Click here to open Image"
+                        on_release:
+                            webbrowser.open(root.Image1)
+                ThinBox:
+                    ThinLabel:
+                        text: "Information: "
+                    ThinLabel:
+                        text: root.Information
+                ThinBox:
+                    ThinLabel:
+                        text: "Last updated: "
+                    ThinLabel:
+                        text: root.updateTime
+
         MDSeparator:
             id: sep
 
