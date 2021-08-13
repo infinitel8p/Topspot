@@ -277,9 +277,17 @@ Builder.load_string(
                         ThinLabel:
                             text: "Images: "
                         ThinLabelButton:
-                            text: "Click here to open Image"
+                            text: "Image 1"
                             on_release:
                                 webbrowser.open(root.Image1)
+                        ThinLabelButton:
+                            text: "Image 2"
+                            on_release:
+                                webbrowser.open(root.Image2)
+                        ThinLabelButton:
+                            text: "Image 3"
+                            on_release:
+                                webbrowser.open(root.Image3)
                     ThinBox:
                         ThinLabel:
                             text: "Information: "
