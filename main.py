@@ -27,7 +27,7 @@ class MainApp(MDApp):
         GpsHelper().run()
         TopSpotMap().start_getting_spots_in_fov()
         #init database
-        self.connection = sqlite3.connect("spotlist.db")
+        self.connection = sqlite3.connect("spotlist2.db")
         self.cursor = self.connection.cursor()
         #init SearchPopupMenu
         self.search_menu = SearchPopupMenu()
