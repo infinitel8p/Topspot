@@ -249,27 +249,7 @@ Builder.load_string(
                             text: root.PLZ
                     ThinBox:
                         ThinLabel:
-                            text: "Season 1 Date: "
-                        ThinLabel:
-                            text: root.Season1Date
-                    ThinBox:
-                        ThinLabel:
-                            text: "Season 1 Hours: "
-                        ThinLabel:
-                            text: root.Season1Time
-                    ThinBox:
-                        ThinLabel:
-                            text: "Season 2 Date: "
-                        ThinLabel:
-                            text: root.Season2Date
-                    ThinBox:
-                        ThinLabel:
-                            text: "Season 2 Hours: "
-                        ThinLabel:
-                            text: root.Season2Time
-                    ThinBox:
-                        ThinLabel:
-                            text: "Images: "
+                            text: "open full size images: "
                         ThinLabelButton:
                             text: "Image 1"
                             on_release:
@@ -462,10 +442,6 @@ class ListMDDialog(BaseDialog):
     City = StringProperty("Missing data")
     Country = StringProperty("Missing data")
     PLZ = StringProperty("Missing data")
-    Season1Date = StringProperty("Missing data")
-    Season1Time = StringProperty("Missing data")
-    Season2Date = StringProperty("Missing data")
-    Season2Time = StringProperty("Missing data")
     Information = StringProperty("Missing data")
     updateTime = StringProperty("Missing data")
     background = StringProperty('{}ios_bg_mod.png'.format(images_path))
