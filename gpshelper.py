@@ -25,7 +25,9 @@ class GpsHelper():
             gps.start(minTime = 1000, minDistance = 0)
 
     def update_blinker_position(self, *args, **kwargs):
-        my_lat = kwargs["lat"]
+        global my_lat
+        my_lat= kwargs["lat"]
+        global my_lon
         my_lon = kwargs["lon"]
         print("GPS Position:", my_lat, my_lon)
         #update blinkerpos
@@ -37,6 +39,14 @@ class GpsHelper():
             map = MDApp.get_running_app().root.ids.mapview
             map.center_on(my_lat, my_lon)
             self.has_centered_map = True
+
+    def gps_button_callback():
+        if platform == "android" or platform == "ios":
+            map = MDApp.get_running_app().root.ids.mapview
+            map.center_on(my_lat, my_lon)
+        else:
+            map = MDApp.get_running_app().root.ids.mapview
+            map.center_on(51.39735, 7.18072)
 
     def on_auth_status(self, general_status, status_message):
         if general_status == "provider-enabled":

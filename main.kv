@@ -1,5 +1,6 @@
 #:kivy 2.0.0
 #:include topspotmap.kv
+#:import GpsHelper gpshelper.GpsHelper
 
 BoxLayout:
     orientation: "vertical"
@@ -10,4 +11,10 @@ BoxLayout:
         md_bg_color: app.theme_cls.primary_color
     TopSpotMap:
         id: mapview
-
+        FloatLayout:
+            size: root.size
+            MDFloatingActionButton:
+                icon: "crosshairs-gps"
+                md_bg_color: app.theme_cls.primary_color
+                on_release: GpsHelper.gps_button_callback()
+                pos_hint : {'top': 0.1, 'right': 0.95}
