@@ -11,10 +11,13 @@ BoxLayout:
         md_bg_color: app.theme_cls.primary_color
     TopSpotMap:
         id: mapview
-        FloatLayout:
-            size: root.size
-            MDFloatingActionButton:
-                icon: "crosshairs-gps"
-                md_bg_color: app.theme_cls.primary_color
-                on_release: GpsHelper.gps_button_callback()
-                pos_hint : {'top': 0.1, 'right': 0.95}
+        AnchorLayout:
+            BoxLayout:
+                padding: [dp(40), dp(40), dp(40), dp(40)]
+                size_hint: None, None
+                size: dp(40), dp(40)
+                MDFloatingActionButton:
+                    icon: "crosshairs-gps"
+                    md_bg_color: app.theme_cls.primary_color
+                    on_release: GpsHelper.gps_button_callback()
+                    pos_hint: {'bottom': 1, 'right': 1}
