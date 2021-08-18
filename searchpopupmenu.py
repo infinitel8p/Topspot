@@ -4,6 +4,8 @@ from kivymd.uix.dialog import MDInputDialog
 from urllib import parse
 from kivy.network.urlrequest import UrlRequest
 from kivymd.app import MDApp
+from kivymd.uix.snackbar import Snackbar
+from kivymd.uix.button import MDFlatButton
 
 class SearchPopupMenu(MDInputDialog):
     title = "Search for a city"
@@ -14,7 +16,7 @@ class SearchPopupMenu(MDInputDialog):
         self.size_hint = [.8, .3]
         self.events_callback = self.callback
 
-    def open(self):
+    def open(self, *args):
         super().open()
         Clock.schedule_once(self.set_field_focus, 0.5)
 
@@ -29,7 +31,7 @@ class SearchPopupMenu(MDInputDialog):
         UrlRequest(url, on_success = self.success, on_failure = self.failure, on_error = self.error, ca_file=certifi.where())
 
     def success(self, urlrequest, result):
-        print("Success")
+        print("UrlRequest status: successful")
         try:
             latitude = result["Response"]["View"][0]["Result"][0]["Location"]["NavigationPosition"][0]["Latitude"]
             longitude = result["Response"]["View"][0]["Result"][0]["Location"]["NavigationPosition"][0]["Longitude"]
@@ -38,12 +40,16 @@ class SearchPopupMenu(MDInputDialog):
             mapview = app.root.ids.mapview
             mapview.center_on(latitude, longitude)
         except IndexError:
-            print(IndexError)
+            print(f"{IndexError} while searching for: {self.text_field.text}")
+            Snackbar(
+                text=f"{self.text_field.text} could not be found",
+                button_text = "RETRY",
+                button_callback = self.open).show()
 
     def failure(self, urlrequest, result):
-        print("Failure")
+        print("UrlRequest status: failure")
         print(result)
 
     def error(self, urlrequest, result):
-        print("Error")
+        print("UrlRequest status: error")
         print(result)
