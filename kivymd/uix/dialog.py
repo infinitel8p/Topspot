@@ -185,6 +185,7 @@ Builder.load_string(
                     loop: True
                     direction: 'right'
                     do_scroll_y: False
+                    on_touch_up: self.load_next()
                     on_kv_post: self.height += dp(200)
                     FitImage:
                         source: "image1%s.png"%(root.SpotName+root.ID)
