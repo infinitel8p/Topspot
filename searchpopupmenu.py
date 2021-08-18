@@ -42,7 +42,7 @@ class SearchPopupMenu(MDInputDialog):
         except IndexError:
             print(f"{IndexError} while searching for: {self.text_field.text}")
             Snackbar(
-                text=f"{self.text_field.text} could not be found",
+                text=f"'{self.text_field.text}' could not be found",
                 button_text = "RETRY",
                 button_callback = self.open).show()
 

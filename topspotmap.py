@@ -33,11 +33,12 @@ class TopSpotMap(MapView):
                 self.add_spot(spot)
         #update gps coordinates on screen
         if platform == "android" or platform == "ios":
-            pass
+            coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
+            coordinate_label.text = f"{coordinate_label.text}\nSpots in FOV: {len(spots)}"
         else:
             #update gps coordinates on screen
             coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
-            coordinate_label.text = f"GPS Coordinates:\nlat: {round((min_lat+max_lat)/2, 5)}\nlon: {round((min_lon+max_lon)/2, 5)}"
+            coordinate_label.text = f"GPS Coordinates:\nlat: {round((min_lat+max_lat)/2, 5)}\nlon: {round((min_lon+max_lon)/2, 5)}\nSpots in FOV: {len(spots)}"
 
     def add_spot(self, spot):
         print(f"Creating Marker for: {spot[1]} @ {spot[3]}, {spot[2]}")
