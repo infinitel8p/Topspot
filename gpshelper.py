@@ -39,10 +39,6 @@ class GpsHelper():
         gps_blinker = MDApp.get_running_app().root.ids.mapview.ids.blinker
         gps_blinker.lat = my_lat
         gps_blinker.lon = my_lon
-        #update gps coordinates on screen
-        if platform == "android" or platform == "ios":
-            coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
-            coordinate_label.text = f"GPS Coordinates:\nlat: {round(my_lat, 5)}\nlon: {round(my_lon, 5)}"
         #center map on gps
         if not self.has_centered_map:
             map = MDApp.get_running_app().root.ids.mapview

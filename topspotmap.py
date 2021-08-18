@@ -3,6 +3,7 @@ from kivy.clock import Clock
 from kivymd.app import MDApp
 from spotmarker import SpotMarker
 from kivy.utils import platform
+from gpshelper import my_lat, my_lon
 
 class TopSpotMap(MapView):
     getting_spots_timer = None
@@ -34,11 +35,11 @@ class TopSpotMap(MapView):
         #update gps coordinates on screen
         if platform == "android" or platform == "ios":
             coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
-            coordinate_label.text = f"{coordinate_label.text}\nSpots in FOV: {len(spots)}"
+            coordinate_label.text = f"GPS Coordinates:\nlat: {round(my_lat, 4)}\nlon: {round(my_lon, 4)}\nSpots in FOV: {len(spots)}"
         else:
             #update gps coordinates on screen
             coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
-            coordinate_label.text = f"GPS Coordinates:\nlat: {round((min_lat+max_lat)/2, 5)}\nlon: {round((min_lon+max_lon)/2, 5)}\nSpots in FOV: {len(spots)}"
+            coordinate_label.text = f"GPS Coordinates:\nlat: {round((min_lat+max_lat)/2, 4)}\nlon: {round((min_lon+max_lon)/2, 4)}\nSpots in FOV: {len(spots)}"
 
     def add_spot(self, spot):
         print(f"Creating Marker for: {spot[1]} @ {spot[3]}, {spot[2]}")
