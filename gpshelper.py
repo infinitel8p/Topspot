@@ -2,44 +2,49 @@ from kivymd.app import MDApp
 from kivy.utils import platform
 from kivymd.uix.dialog import MDDialog
 
+
 class GpsHelper():
     has_centered_map = False
+
     def run(self):
-        #reference the blinker
+        # reference the blinker
         gps_blinker = MDApp.get_running_app().root.ids.mapview.ids.blinker
-        #start blinking to show position
+        # start blinking to show position
         gps_blinker.blink()
-        #request permissions on android
+        # request permissions on android
         if platform == "android":
             from android.permissions import request_permissions, Permission
+
             def callback(permission, results):
                 if all([res for res in results]):
                     print("Got all permissions")
                 else:
                     print("Did not get all permissions")
-            request_permissions([Permission.ACCESS_COARSE_LOCATION, Permission.ACCESS_FINE_LOCATION], callback)
-        #configure gps
+            request_permissions(
+                [Permission.ACCESS_COARSE_LOCATION, Permission.ACCESS_FINE_LOCATION], callback)
+        # configure gps
         if platform == "android" or platform == "ios":
             from plyer import gps
-            gps.configure(on_location = self.update_blinker_position, on_status = self.on_auth_status)
-            gps.start(minTime = 1000, minDistance = 0)
-        #else:
-            #update gps coordinates on screen
+            gps.configure(on_location=self.update_blinker_position,
+                          on_status=self.on_auth_status)
+            gps.start(minTime=1000, minDistance=0)
+        # else:
+            # update gps coordinates on screen
         #    coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
         #    min_lat, min_lon, max_lat, max_lon = self.get_bbox()
         #    coordinate_label.text = f"GPS Coordinates:\nlat: {(min_lat+max_lat)/2}\nlon: {(min_lon+max_lon)/2}"
 
     def update_blinker_position(self, *args, **kwargs):
         global my_lat
-        my_lat= kwargs["lat"]
+        my_lat = kwargs["lat"]
         global my_lon
         my_lon = kwargs["lon"]
         print("GPS Position:", my_lat, my_lon)
-        #update blinkerpos
+        # update blinkerpos
         gps_blinker = MDApp.get_running_app().root.ids.mapview.ids.blinker
         gps_blinker.lat = my_lat
         gps_blinker.lon = my_lon
-        #center map on gps
+        # center map on gps
         if not self.has_centered_map:
             map = MDApp.get_running_app().root.ids.mapview
             map.center_on(my_lat, my_lon)

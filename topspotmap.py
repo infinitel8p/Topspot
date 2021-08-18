@@ -4,6 +4,7 @@ from kivymd.app import MDApp
 from spotmarker import SpotMarker
 from kivy.utils import platform
 
+
 class TopSpotMap(MapView):
     getting_spots_timer = None
     spot_names = []
@@ -15,7 +16,8 @@ class TopSpotMap(MapView):
         except:
             pass
 
-        self.getting_spots_timer = Clock.schedule_once(self.get_spots_in_fov, 0.5)
+        self.getting_spots_timer = Clock.schedule_once(
+            self.get_spots_in_fov, 0.5)
 
     def get_spots_in_fov(self, *args):
         min_lat, min_lon, max_lat, max_lon = self.get_bbox()
@@ -31,30 +33,28 @@ class TopSpotMap(MapView):
                 pass
             else:
                 self.add_spot(spot)
-        #update gps coordinates on screen
+        # update gps coordinates on screen
         if platform == "android" or platform == "ios":
             coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
             gps_blinker = MDApp.get_running_app().root.ids.mapview.ids.blinker
             coordinate_label.text = f"GPS Coordinates:\nlat: {round(gps_blinker.lat, 4)}\nlon: {round(gps_blinker.lon, 4)}\nSpots in FOV: {len(spots)}"
         else:
-            #update gps coordinates on screen
+            # update gps coordinates on screen
             coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
             coordinate_label.text = f"GPS Coordinates:\nlat: {round((min_lat+max_lat)/2, 4)}\nlon: {round((min_lon+max_lon)/2, 4)}\nSpots in FOV: {len(spots)}"
 
     def add_spot(self, spot):
         print(f"Creating Marker for: {spot[1]} @ {spot[3]}, {spot[2]}")
 
-        #init marker for the spot
+        # init marker for the spot
         lat, lon = spot[3], spot[2]
         marker = SpotMarker()
         marker.lat = lat
         marker.lon = lon
         marker.source = "map_marker_32x32.png"
         marker.spot_data = spot
-        #add marker to map
+        # add marker to map
         self.add_widget(marker)
-        #register added markers
+        # register added markers
         name = spot[1]
         self.spot_names.append(name)
-
-

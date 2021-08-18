@@ -7,6 +7,7 @@ from kivymd.app import MDApp
 from kivymd.uix.snackbar import Snackbar
 from kivymd.uix.button import MDFlatButton
 
+
 class SearchPopupMenu(MDInputDialog):
     title = "Search for a city"
     text_button_ok = "Search"
@@ -28,7 +29,8 @@ class SearchPopupMenu(MDInputDialog):
         apikey = "alhPapHUB_qtDB3MT9R4wEud3UcR77RjD3fgTlHYiCE"
         address = parse.quote(address)
         url = f"https://geocoder.ls.hereapi.com/6.2/geocode.json?searchtext={address}&gen=9&apiKey={apikey}"
-        UrlRequest(url, on_success = self.success, on_failure = self.failure, on_error = self.error, ca_file=certifi.where())
+        UrlRequest(url, on_success=self.success, on_failure=self.failure,
+                   on_error=self.error, ca_file=certifi.where())
 
     def success(self, urlrequest, result):
         print("UrlRequest status: successful")
@@ -43,8 +45,8 @@ class SearchPopupMenu(MDInputDialog):
             print(f"{IndexError} while searching for: {self.text_field.text}")
             Snackbar(
                 text=f"'{self.text_field.text}' could not be found",
-                button_text = "RETRY",
-                button_callback = self.open).show()
+                button_text="RETRY",
+                button_callback=self.open).show()
 
     def failure(self, urlrequest, result):
         print("UrlRequest status: failure")

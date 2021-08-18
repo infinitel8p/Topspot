@@ -1,11 +1,12 @@
 from kivy_garden.mapview import MapMarker
 from kivy.animation import Animation
 
+
 class GpsBlinker(MapMarker):
     def blink(self):
         # animation for blink size & marker opacity
-        animatio = Animation(opacity = 0, blink_size = 40)
-        animatio.bind(on_complete = self.reset)
+        animatio = Animation(opacity=0, blink_size=40)
+        animatio.bind(on_complete=self.reset)
         animatio.start(self)
 
     def reset(self, *args):
