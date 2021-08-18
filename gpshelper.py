@@ -23,6 +23,11 @@ class GpsHelper():
             from plyer import gps
             gps.configure(on_location = self.update_blinker_position, on_status = self.on_auth_status)
             gps.start(minTime = 1000, minDistance = 0)
+        #else:
+            #update gps coordinates on screen
+        #    coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
+        #    min_lat, min_lon, max_lat, max_lon = self.get_bbox()
+        #    coordinate_label.text = f"GPS Coordinates:\nlat: {(min_lat+max_lat)/2}\nlon: {(min_lon+max_lon)/2}"
 
     def update_blinker_position(self, *args, **kwargs):
         global my_lat
@@ -34,6 +39,10 @@ class GpsHelper():
         gps_blinker = MDApp.get_running_app().root.ids.mapview.ids.blinker
         gps_blinker.lat = my_lat
         gps_blinker.lon = my_lon
+        #update gps coordinates on screen
+        if platform == "android" or platform == "ios":
+            coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
+            coordinate_label.text = f"GPS Coordinates:\nlat: {round(my_lat, 5)}\nlon: {round(my_lon, 5)}"
         #center map on gps
         if not self.has_centered_map:
             map = MDApp.get_running_app().root.ids.mapview

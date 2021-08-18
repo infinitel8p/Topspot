@@ -24,3 +24,15 @@ BoxLayout:
                 icon: "crosshairs-gps"
                 md_bg_color: app.theme_cls.primary_color
                 on_release: GpsHelper.gps_button_callback()
+
+        AnchorLayout:
+            anchor_x: 'left'
+            anchor_y: 'bottom'
+            padding: dp(10), dp(0)
+
+            MDLabel:
+                id: coordinate_label
+                text: "GPS Coordinates:\nlat:\nlon:"
+                size_hint: None, None
+                font_style: "Caption"
+                theme_text_color: "Hint"

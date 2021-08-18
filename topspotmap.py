@@ -1,7 +1,8 @@
 from kivy_garden.mapview import MapView
 from kivy.clock import Clock
-from kivy.app import App
+from kivymd.app import MDApp
 from spotmarker import SpotMarker
+from kivy.utils import platform
 
 class TopSpotMap(MapView):
     getting_spots_timer = None
@@ -18,7 +19,7 @@ class TopSpotMap(MapView):
 
     def get_spots_in_fov(self, *args):
         min_lat, min_lon, max_lat, max_lon = self.get_bbox()
-        app = App.get_running_app()
+        app = MDApp.get_running_app()
         sql_statement = f"SELECT * FROM skatespots WHERE x > {min_lon} AND x < {max_lon} AND y > {min_lat} AND y < {max_lat}"
         app.cursor.execute(sql_statement)
         spots = app.cursor.fetchall()
@@ -30,6 +31,13 @@ class TopSpotMap(MapView):
                 pass
             else:
                 self.add_spot(spot)
+        #update gps coordinates on screen
+        if platform == "android" or platform == "ios":
+            pass
+        else:
+            #update gps coordinates on screen
+            coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
+            coordinate_label.text = f"GPS Coordinates:\nlat: {round((min_lat+max_lat)/2, 5)}\nlon: {round((min_lon+max_lon)/2, 5)}"
 
     def add_spot(self, spot):
         print(f"Creating Marker for: {spot[1]} @ {spot[3]}, {spot[2]}")
