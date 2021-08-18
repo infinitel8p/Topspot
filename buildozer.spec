@@ -36,7 +36,7 @@ version = 1.2
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,
-requirements = python3,kivy==2.0.0,requests,certifi,plyer,kivy_garden.mapview,pillow,urllib3,charset-normalizer,certifi,idna,sdl2_ttf==2.0.15
+requirements = python3,kivy==2.0.0,requests,certifi,plyer,kivy_garden.mapview,pillow,urllib3,charset-normalizer,certifi,idna,sdl2_ttf==2.0.15,sdl2
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -269,10 +269,10 @@ android.allow_backup = True
 #p4a.fork = kivy
 
 # (str) python-for-android branch to use, defaults to master
-p4a.branch = develop
+#p4a.branch = develop
 
 # (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
-#p4a.source_dir =
+p4a.source_dir = /home/ludo/python-for-android
 
 # (str) The directory in which python-for-android should look for your own build recipes (if any)
 #p4a.local_recipes =
