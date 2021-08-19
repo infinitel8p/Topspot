@@ -23,6 +23,7 @@ def success_func(urlrequest, result):
         app = MDApp.get_running_app()
         mapview = app.root.ids.mapview
         mapview.center_on(latitude, longitude)
+        mapview.zoom = 13
     except IndexError:
         print(f"{IndexError} while searching for: {search_address}")
         Snackbar(
