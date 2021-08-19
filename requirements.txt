@@ -1,4 +1,3 @@
-wheel
 kivy
 kivy_garden
 kivy_garden.mapview
