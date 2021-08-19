@@ -10,10 +10,6 @@ import requests
 import certifi
 
 
-def test_always_passes():
-    assert True, "Test completed"
-
-
 class MainApp(MDApp):
     class ContentNavigationDrawer(BoxLayout):
         pass
