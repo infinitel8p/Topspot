@@ -27,15 +27,16 @@ class MainApp(MDApp):
 
         # init gps
         try:
-            print("Beginning database download with urllib2...")
+            print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
+                  '   ] [Database    ] ' + "Beginning database download with urllib2")
             databse_url = "https://github.com/infinitel8p/Topspot/blob/master/spotlist.db?raw=true"
             response = requests.get(
                 databse_url, verify=certifi.where())  # verify=False
             file = open("spotlist.db", "wb")
             file.write(response.content)
             file.close()
-            print(
-                "Download and writing database completed\nApplication main loop will be started...")
+            print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
+                  '   ] [Database    ] ' + "Download and writing database completed")
         except:
             pass
         GpsHelper().run()

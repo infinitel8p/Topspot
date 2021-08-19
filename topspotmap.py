@@ -25,8 +25,12 @@ class TopSpotMap(MapView):
         sql_statement = f"SELECT * FROM skatespots WHERE x > {min_lon} AND x < {max_lon} AND y > {min_lat} AND y < {max_lat}"
         app.cursor.execute(sql_statement)
         spots = app.cursor.fetchall()
-        print(f"Seeing: {self.get_bbox()}")
-        print(f"Spots in FOV: {len(spots)}")
+        print('[' + '\x1b[1;35;40m' + 'INFO' + '\x1b[0m' +
+              '   ] [Mapview     ] ' + "Seeing: " + '\x1b[1;35;40m' + f"{self.get_bbox()}" +
+              '\x1b[0m')
+        print('[' + '\x1b[1;35;40m' + 'INFO' + '\x1b[0m' +
+              '   ] [Mapview     ] ' + "Spots in FOV: " + '\x1b[1;35;40m' + f"{len(spots)}" +
+              '\x1b[0m')
         for spot in spots:
             name = spot[1]
             if name in self.spot_names:
@@ -44,7 +48,9 @@ class TopSpotMap(MapView):
             coordinate_label.text = f"GPS Coordinates:\nlat: {round((min_lat+max_lat)/2, 4)}\nlon: {round((min_lon+max_lon)/2, 4)}\nSpots in FOV: {len(spots)}"
 
     def add_spot(self, spot):
-        print(f"Creating Marker for: {spot[1]} @ {spot[3]}, {spot[2]}")
+        print('[' + '\x1b[1;34;40m' + 'INFO' + '\x1b[0m' +
+              '   ] [Mapview     ] ' + "Creating Marker for: " +
+              '\x1b[1;34;40m' + f"{spot[1]}" + '\x1b[0m' + f" @ {spot[3]}, {spot[2]}")
 
         # init marker for the spot
         lat, lon = spot[3], spot[2]
