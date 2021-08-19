@@ -41,4 +41,4 @@ jobs:
         continue-on-error: true
       - name: Test with pytest
         run: |
-          pytest main.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+          pytest main.py
