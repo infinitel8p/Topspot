@@ -2,39 +2,480 @@
 #:include topspotmap.kv
 #:import GpsHelper gpshelper.GpsHelper
 
-BoxLayout:
-    orientation: "vertical"
+Screen:
+    NavigationLayout:
+        ScreenManager:
+            Screen:
+                BoxLayout:
+                    orientation: "vertical"
 
-    MDToolbar:
-        title: "Skatespot Map"
-        right_action_items: [["magnify", lambda x: app.search_menu.open()]]
-        #left_action_items: [["menu", lambda x: nav_drawer.toggle_nav_drawer()]]
-        md_bg_color: app.theme_cls.primary_color
+                    MDToolbar:
+                        title: "Skatespot Map"
+                        right_action_items: [["magnify", lambda x: app.search_menu.open()]]
+                        #left_action_items: [["menu", lambda x: nav_drawer.toggle_nav_drawer()]]
+                        md_bg_color: app.theme_cls.primary_color
 
-    FloatLayout:
-        TopSpotMap:
-            id: mapview
+                    FloatLayout:
+                        TopSpotMap:
+                            id: mapview
 
-        AnchorLayout:
-            anchor_x: 'right'
-            anchor_y: 'bottom'
-            padding: dp(20), dp(30)
+                        AnchorLayout:
+                            anchor_x: 'right'
+                            anchor_y: 'bottom'
+                            padding: dp(20), dp(30)
 
-            MDFloatingActionButton:
-                icon: "crosshairs-gps"
-                theme_text_color: "Custom"
-                text_color: 1, 1, 1, 1
-                md_bg_color: app.theme_cls.primary_color
-                on_release: GpsHelper.gps_button_callback()
+                            MDFloatingActionButton:
+                                icon: "crosshairs-gps"
+                                theme_text_color: "Custom"
+                                text_color: 1, 1, 1, 1
+                                md_bg_color: app.theme_cls.primary_color
+                                on_release: GpsHelper.gps_button_callback()
 
-        AnchorLayout:
-            anchor_x: 'left'
-            anchor_y: 'bottom'
-            padding: dp(10), dp(10)
+                        AnchorLayout:
+                            anchor_x: 'left'
+                            anchor_y: 'bottom'
+                            padding: dp(10), dp(10)
 
-            MDLabel:
-                id: coordinate_label
-                text: "GPS Coordinates:\nlat:\nlon:"
-                size_hint: 1, None
-                font_style: "Caption"
-                theme_text_color: "Hint"
+                            MDLabel:
+                                id: coordinate_label
+                                text: "GPS Coordinates:\nlat:\nlon:"
+                                size_hint: 1, None
+                                font_style: "Caption"
+                                theme_text_color: "Hint"
+
+        MDNavigationDrawer:
+            id: nav_drawer
+
+            ContentNavigationDrawer:
+                orientation: 'vertical'
+                padding: "8dp"
+                spacing: "8dp"
+                Image:
+                    id: avatar
+                    size_hint: (1,1)
+                    source: "Images/TopSpotGrey.png"
+                MDLabel:
+                    text: "To add more spots send a E-Mail to:"
+                    font_style: "Subtitle1"
+                    size_hint_y: None
+                    height: self.texture_size[1]
+                MDLabel:
+                    text: "greenhollows@gmail.com"
+                    size_hint_y: None
+                    font_style: "Caption"
+                    height: self.texture_size[1]
+                ScrollView:
+                    do_scroll_x: False
+                    always_overscroll: True
+                    scroll_type: ['bars', 'content']
+                    MDList:
+                        id: md_list
+                        height: self.minimum_height
+                        OneLineIconListItem:
+                            text: "Ahaus"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Amsterdam"
+                            on_release: ButtonCallback.callback
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Amrum"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Århus"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Arnhem"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Azores"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Barcelona"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Basel"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Berlin"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Bochum"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Bremen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Bottrop"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Braunschweig"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Brüssel"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Castrop-Rauxel"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Den Haag"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Dortmund"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Duisburg"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Düsseldorf"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Eindhoven"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Ennepetal"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Essen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Frankfurt am Main"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Gelsenkirchen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Gummersbach"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Hagen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Halle (Saale)"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Hamburg"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Hannover"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Hattingen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Heiligenhaus"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Hemer"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Herne"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Herten"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "København"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Köln"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Krefeld"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Leverkusen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Lissabon"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Lübeck"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Luxembourg"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Maastricht"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Mallorca"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Marl"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Milano"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Morocco"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Mülheim"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Münster"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Neuss"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "New York"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Nieuwegein"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Oberhausen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Olpe"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Porto"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Radevormwald"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Recklinghausen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Rotterdam"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Schwelm"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Soest"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Solingen"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Sprockhövel"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Tenerife"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Tiflis"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Velbert"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Venlo"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Wetter"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Witten"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Wuppertal"
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"

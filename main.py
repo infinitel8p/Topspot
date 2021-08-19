@@ -3,6 +3,9 @@ import sqlite3
 from topspotmap import TopSpotMap
 from searchpopupmenu import SearchPopupMenu
 from gpshelper import GpsHelper
+from kivy.uix.boxlayout import BoxLayout
+from kivymd.theming import ThemableBehavior
+from kivymd.uix.list import MDList
 import requests
 import certifi
 
@@ -12,6 +15,12 @@ def test_always_passes():
 
 
 class MainApp(MDApp):
+    class ContentNavigationDrawer(BoxLayout):
+        pass
+
+    class DrawerList(ThemableBehavior, MDList):
+        pass
+
     connection = None
     cursor = None
     search_menu = None
@@ -29,7 +38,8 @@ class MainApp(MDApp):
             file = open("spotlist.db", "wb")
             file.write(response.content)
             file.close()
-            print("Download and writing database completed\nMain loop will be started...")
+            print(
+                "Download and writing database completed\nApplication main loop will be started...")
         except:
             pass
         GpsHelper().run()
