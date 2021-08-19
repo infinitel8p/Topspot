@@ -1,4 +1,5 @@
 cache
+.pytest_cache
 __pycache__
 deployment_cert.der
 bin/topspot__arm64-v8a
