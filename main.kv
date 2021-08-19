@@ -51,10 +51,21 @@ Screen:
                 orientation: 'vertical'
                 padding: "8dp"
                 spacing: "8dp"
-                Image:
-                    id: avatar
-                    size_hint: (1,1)
-                    source: "Images/TopSpotGrey.png"
+                RelativeLayout:
+                    id: top_box
+                    size_hint_y: None
+                    height: "100dp"
+                    #padding: "10dp"
+                    pos_hint: {"top": 1}
+
+                    FitImage:
+                        source: "Images/TopSpotGreyBig.png"
+
+                    MDIconButton:
+                        icon: "close"
+                        pos_hint: {"top": 1,"right":1}
+                        on_release: nav_drawer.toggle_nav_drawer()
+
                 MDLabel:
                     text: "To add more spots send a E-Mail to:"
                     font_style: "Subtitle1"
