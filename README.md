@@ -29,6 +29,7 @@ Lass dich zu Locations wie Skateparks und Streetspots mit Google Maps navigieren
 - p4a aab --private /home/ludo/Topspot --package=org.example.myapp --name="My App" --version=1.0.0 --bootstrap=sdl2 --requirements=python3,kivy --permission=INTERNET  --sdk-dir=/home/ludo/.buildozer/android/platform/android-sdk --android_api 30 --ndk-dir=/home/ludo/.buildozer/android/platform/android-ndk-r19c --ndk-api 23 --arch=arm64-v8a --debug
 
  - /home/ludo/python-for-android-feat-aab-support/pythonforandroid/toolchain.py added dist.dist_dir='/home/ludo/.local/share/python-for-android/dists/unnamed_dist_1'
+ - copied reproducible-buildinfo.diff from /home/ludo/python-for-android/pythonforandroid/recipes/python3/patches to /home/ludo/.local/lib/python3.8/site-packages/pythonforandroid/recipes/python3/patches
  - p4a clean_all
  - rerun command again
  - p4a aab --private /home/ludo/Topspot --package=org.ferrara.topspot --name="Topspot" --version=1.3 --bootstrap=sdl2 --requirements=python3,kivy==2.0.0,requests,certifi,plyer,kivy_garden.mapview,pillow,urllib3,charset-normalizer,certifi,idna,sdl2_ttf==2.0.15,sdl2 --permission=INTERNET --permission=ACCESS_COARSE_LOCATION --permission=ACCESS_FINE_LOCATION  --sdk-dir=/home/ludo/.buildozer/android/platform/android-sdk --android_api 30 --ndk-dir=/home/ludo/.buildozer/android/platform/android-ndk-r19c --ndk-api 23 --arch=arm64-v8a --arch=armeabi-v7a --presplash-lottie=/home/ludo/Topspot/Images/presplash.json --presplash-color=white --icon=/home/ludo/Topspot/Images/TopSpotLogo.png --orientation=all --window --debug
