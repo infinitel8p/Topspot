@@ -18,4 +18,11 @@ Lass dich zu Locations wie Skateparks und Streetspots mit Google Maps navigieren
 
 - download zip from https://github.com/misl6/python-for-android@feat/aab-support
 - pip install -e /home/ludo/python-for-android-feat-aab-support/
+- run command p4a and check if there is     
+`
+    aar                 Build an AAR
+    apk                 Build an APK
+    aab                 Build an AAB
+`
+- p4a aab --private /home/ludo/Topspot --package=org.example.myapp --name="My App" --version=1.0.0 --bootstrap=sdl2 --requirements=python3,kivy --permission=INTERNET  --sdk-dir=/home/ludo/.buildozer/android/platform/android-sdk --android_api 30 --ndk-dir=/home/ludo/.buildozer/android/platform/android-ndk-r19c --ndk-api 23 --arch=arm64-v8a --debug
 
