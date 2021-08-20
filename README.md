@@ -18,6 +18,8 @@ Lass dich zu Locations wie Skateparks und Streetspots mit Google Maps navigieren
 
 - download zip from https://github.com/misl6/python-for-android/tree/feat/aab-support
 - pip install -e /home/ludo/python-for-android-feat-aab-support/
+
+- pip install git+https://github.com/misl6/python-for-android@feat/aab-support
 - run command p4a and check if there is     
 `
     aar                 Build an AAR
