@@ -27,6 +27,8 @@ class SearchPopupMenu(MDInputDialog):
 
     def geocode_get_lat_lon(self, address):
         apikey = "alhPapHUB_qtDB3MT9R4wEud3UcR77RjD3fgTlHYiCE"
+        print('[' + '\x1b[1;34;40m' + 'INFO' + '\x1b[0m' + '   ] [UrlRequest  ] ' +
+              "UrlRequest for: " + '\x1b[1;34;40m' + f"{address}" + '\x1b[0m')
         address = parse.quote(address)
         url = f"https://geocoder.ls.hereapi.com/6.2/geocode.json?searchtext={address}&gen=9&apiKey={apikey}"
         UrlRequest(url, on_success=self.success, on_failure=self.failure,
@@ -38,7 +40,8 @@ class SearchPopupMenu(MDInputDialog):
         try:
             latitude = result["Response"]["View"][0]["Result"][0]["Location"]["NavigationPosition"][0]["Latitude"]
             longitude = result["Response"]["View"][0]["Result"][0]["Location"]["NavigationPosition"][0]["Longitude"]
-            print(longitude, latitude)
+            print('[' + '\x1b[1;32;40m' + 'RESULTS' + '\x1b[0m' +
+                  '] [UrlRequest  ] ' + "Coordinates: " + '\x1b[1;32;40m' + f'{longitude, latitude}' + '\x1b[0m')
             app = MDApp.get_running_app()
             mapview = app.root.ids.mapview
             mapview.center_on(latitude, longitude)
