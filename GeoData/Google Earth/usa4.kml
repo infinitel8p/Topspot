@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>usa skatepark</name>
+	<Placemark id="1.2.1">
+		<name>Dublin Skatepark</name>
+		<address>6565 Commerce Pkwy, Dublin, OH 43017, Vereinigte Staaten</address>
+		<phoneNumber>+1 614-301-0404</phoneNumber>
+		<snippet>6565 Commerce Pkwy, Dublin, OH 43017, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x88389335e0a418bd:0x575f7005a71b40da&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x88389335e0a418bd:0x575f7005a71b40da&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-83.14209579999999,40.1014635,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Malden Skatepark</name>
+		<address>84 Willow St, Malden, MA 02148, Vereinigte Staaten</address>
+		<snippet>84 Willow St, Malden, MA 02148, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x89e373d578a83a1f:0x6e39d3252c851bc&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x89e373d578a83a1f:0x6e39d3252c851bc&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.0527439,42.4276779,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>skate park</name>
+		<address>216 Granville St, Gahanna, OH 43230, Vereinigte Staaten</address>
+		<snippet>216 Granville St, Gahanna, OH 43230, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x8838619aebd93041:0xc8cda08b784977fb&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x8838619aebd93041:0xc8cda08b784977fb&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-82.87320099999999,40.0198602,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Inwood Skate Park</name>
+		<address>2900 W Jefferson St, Joliet, IL 60435, Vereinigte Staaten</address>
+		<phoneNumber>+1 815-741-7252</phoneNumber>
+		<snippet>2900 W Jefferson St, Joliet, IL 60435, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x880e61ec716cd44b:0xe8bb634684074b95&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x880e61ec716cd44b:0xe8bb634684074b95&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-88.15193459999999,41.5210797,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Andy A_Dog Williams Skatepark</name>
+		<address>1 Lake St, Burlington, VT 05401, Vereinigte Staaten</address>
+		<phoneNumber>+1 802-864-0123</phoneNumber>
+		<snippet>1 Lake St, Burlington, VT 05401, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x4cca7aee6511ee73:0x18df8c40a2778728&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x4cca7aee6511ee73:0x18df8c40a2778728&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-73.2240333,44.4830551,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Pitcher Park Memorial Skatepark</name>
+		<address>Forsythe Rd, Carnegie, PA 15106, Vereinigte Staaten</address>
+		<snippet>Forsythe Rd, Carnegie, PA 15106, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x8834f7b6657e1667:0xf96e208cf192439b&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x8834f7b6657e1667:0xf96e208cf192439b&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-80.0736337,40.4044319,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Janes Avenue Skatepark</name>
+		<address>Woodridge, IL 60517, Vereinigte Staaten</address>
+		<snippet>Woodridge, IL 60517, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x880e5a9cf3ab794d:0x90aab727337bea07&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x880e5a9cf3ab794d:0x90aab727337bea07&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-88.039204,41.7404176,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Underwood Skatepark</name>
+		<address>432 N Main St, Taylor, PA 18517, Vereinigte Staaten</address>
+		<phoneNumber>+1 570-562-7878</phoneNumber>
+		<snippet>432 N Main St, Taylor, PA 18517, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x89c4df703cc8406f:0xb93e51840dfee7c&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x89c4df703cc8406f:0xb93e51840dfee7c&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-75.7006808,41.3890026,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Marshfield Skatepark</name>
+		<address>934 Webster St, Marshfield, MA 02050, Vereinigte Staaten</address>
+		<snippet>934 Webster St, Marshfield, MA 02050, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x89e4a6c553369455:0x1c136ef7ea6f5f07&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x89e4a6c553369455:0x1c136ef7ea6f5f07&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-70.70422289999999,42.091845,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Binghamton Skatepark</name>
+		<address>1 Pleasant St, Binghamton, NY 13901, Vereinigte Staaten</address>
+		<snippet>1 Pleasant St, Binghamton, NY 13901, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x89daef86aa660b55:0xbb087dfeb8e1f36a&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x89daef86aa660b55:0xbb087dfeb8e1f36a&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-75.9056059,42.1132234,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

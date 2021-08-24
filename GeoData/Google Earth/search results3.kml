@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>Skatepark</name>
+	<Placemark id="1.2.1">
+		<name>Skatepark unter der Zoobrücke</name>
+		<address>50679 Köln</address>
+		<snippet>50679 Köln</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47bf25ea4de384bb:0x8eb7f83b6a7e2ace&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47bf25ea4de384bb:0x8eb7f83b6a7e2ace&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>6.978026099999999,50.95259799999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Skatepark</name>
+		<address>56422 Wirges</address>
+		<snippet>56422 Wirges</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47be81c904cebe6d:0xd14dd53b00a6607e&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47be81c904cebe6d:0xd14dd53b00a6607e&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>7.8002416,50.4679686,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Asbach Skatepark</name>
+		<address>Im Steinchen 9, 53567 Asbach</address>
+		<snippet>Im Steinchen 9, 53567 Asbach</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47beecdd1d90a005:0xa7df48a51cf824b&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47beecdd1d90a005:0xa7df48a51cf824b&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>7.4286642,50.65930369999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Skaterpark Ennepe Bogen</name>
+		<address>Jahnstraße 30, 58285 Gevelsberg</address>
+		<snippet>Jahnstraße 30, 58285 Gevelsberg</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47b925b3e4c5d5e9:0x7105b49b6069dfce&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47b925b3e4c5d5e9:0x7105b49b6069dfce&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>7.342743199999999,51.32218289999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Skaterplatz</name>
+		<address>57072 Siegen</address>
+		<snippet>57072 Siegen</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47bc1db53532437f:0x6825eb3a9bbf48ed&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47bc1db53532437f:0x6825eb3a9bbf48ed&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>8.0066902,50.880889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Apollo Skatepark</name>
+		<address>Rheinkniebrücke, 40219 Düsseldorf</address>
+		<snippet>Rheinkniebrücke, 40219 Düsseldorf</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47b8ca138f3b160f:0x4104fa48e4827fc&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47b8ca138f3b160f:0x4104fa48e4827fc&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>6.766963,51.2183901,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Skateplatz Am Bahnhof</name>
+		<address>57462 Olpe</address>
+		<snippet>57462 Olpe</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47bead7969650faf:0xe8b91b4b038fddac&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47bead7969650faf:0xe8b91b4b038fddac&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>7.8406845,51.02848149999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Öffentlicher Skatepark</name>
+		<address>51427 Bergisch Gladbach</address>
+		<phoneNumber>02202 140</phoneNumber>
+		<snippet>51427 Bergisch Gladbach</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47bed78aac478695:0xfe08f94238dc056e&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47bed78aac478695:0xfe08f94238dc056e&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>7.1355607,50.9616915,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Skateanlage Lanfermannfähre</name>
+		<address>Lanfermannfähre, 45259 Essen</address>
+		<snippet>Lanfermannfähre, 45259 Essen</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47b8dc8e7f634843:0x3ca3f74ec7650dfb&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47b8dc8e7f634843:0x3ca3f74ec7650dfb&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>7.050408000000001,51.40307209999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Skatepark Hombruch</name>
+		<address>Deutsch-Luxemburger Str., 44225 Dortmund</address>
+		<snippet>Deutsch-Luxemburger Str., 44225 Dortmund</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.411&lng=7.7478&fid=0x47b91923d7ed8cef:0x9926a3333cf88bef&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.411&amp;lng=7.7478&amp;fid=0x47b91923d7ed8cef:0x9926a3333cf88bef&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>7.434777299999999,51.4707673,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

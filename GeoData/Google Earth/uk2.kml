@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>skatepark in uk</name>
+	<Placemark id="1.2.1">
+		<name>Jubilee Skate Park</name>
+		<address>Scunthorpe DN16 3AS, Vereinigtes Königreich</address>
+		<snippet>Scunthorpe DN16 3AS, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x4878e523e83ba391:0x92ed918749c1da09&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x4878e523e83ba391:0x92ed918749c1da09&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.6477461,53.5700483,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>RampNation Indoor Skatepark</name>
+		<address>Unit, 2B Garden Trading Estate, London Rd, Devizes SN10 2HW, Vereinigtes Königreich</address>
+		<snippet>Unit, 2B Garden Trading Estate, London Rd, Devizes SN10 2HW, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x4871619770da2ea3:0x79dc4ebaae7ae94&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x4871619770da2ea3:0x79dc4ebaae7ae94&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.979183,51.3608249,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Rom Skatepark</name>
+		<address>Upper Rainham Rd, Hornchurch RM12 4ES, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1708 474429</phoneNumber>
+		<snippet>Upper Rainham Rd, Hornchurch RM12 4ES, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x47d8bad555cd04b3:0xd63436fa93432c67&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x47d8bad555cd04b3:0xd63436fa93432c67&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>0.1883513,51.55642419999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>The Works Skate Park</name>
+		<address>Kitson Rd, Leeds LS10 1NT, Vereinigtes Königreich</address>
+		<snippet>Kitson Rd, Leeds LS10 1NT, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x48795c3ba2791617:0x32f9c3add9ef8661&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x48795c3ba2791617:0x32f9c3add9ef8661&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.534001,53.7857589,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Royal Oak Skatepark</name>
+		<address>London W2 5XQ, Vereinigtes Königreich</address>
+		<snippet>London W2 5XQ, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x48761000d60d1d81:0x8c24f62a65a2afc9&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x48761000d60d1d81:0x8c24f62a65a2afc9&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.1913649,51.5202028,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Wheelscape Skateparks</name>
+		<address>Shellard Rd, Filton, Bristol BS34 7LS, Vereinigtes Königreich</address>
+		<phoneNumber>+44 7832 114535</phoneNumber>
+		<snippet>Shellard Rd, Filton, Bristol BS34 7LS, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x48718e4114962831:0x8f5b407d1cffcbed&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x48718e4114962831:0x8f5b407d1cffcbed&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-2.5677476,51.5118217,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Cantelowes Skatepark</name>
+		<address>212 Camden Rd, London NW1 9BY, Vereinigtes Königreich</address>
+		<phoneNumber>+44 20 7974 1693</phoneNumber>
+		<snippet>212 Camden Rd, London NW1 9BY, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x48761b04d20d00db:0xe76ce0b1e01d502e&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x48761b04d20d00db:0xe76ce0b1e01d502e&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.1329071,51.54633070000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Creation Skatepark. (Birmingham)</name>
+		<address>582 Moseley Rd, Balsall Heath, Birmingham B12 9AA, Vereinigtes Königreich</address>
+		<phoneNumber>+44 121 449 8000</phoneNumber>
+		<snippet>582 Moseley Rd, Balsall Heath, Birmingham B12 9AA, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x4870bc7371eb2fe3:0xb489e82b21bb2b37&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x4870bc7371eb2fe3:0xb489e82b21bb2b37&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.8863427,52.4541868,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Override Indoor Skatepark</name>
+		<address>8a Shaftesbury Ave, South Shields, Jarrow NE32 3UP, Vereinigtes Königreich</address>
+		<phoneNumber>+44 191 420 8156</phoneNumber>
+		<snippet>8a Shaftesbury Ave, South Shields, Jarrow NE32 3UP, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x487e6f9822a9164d:0x6be74988a646c9b1&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x487e6f9822a9164d:0x6be74988a646c9b1&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.4687171,54.9733285,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Unit 1 Skatepark. (Rochester)</name>
+		<address>Unit 1b, Rochester Airport Industrial Estate, Laker Rd, Rochester ME1 3QX, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1634 868168</phoneNumber>
+		<snippet>Unit 1b, Rochester Airport Industrial Estate, Laker Rd, Rochester ME1 3QX, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.87687424999999&lng=-1.2154083&fid=0x47d8cccf202f6003:0x92724c860880a5ed&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.87687424999999&amp;lng=-1.2154083&amp;fid=0x47d8cccf202f6003:0x92724c860880a5ed&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>0.5015391,51.3504388,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

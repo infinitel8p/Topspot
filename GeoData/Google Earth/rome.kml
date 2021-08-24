@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>skatepark in rom</name>
+	<Placemark id="1.2.1">
+		<name>Pistina Di Pattinaggio</name>
+		<address>00164 Rome, Metropolitan City of Rome, Italien</address>
+		<snippet>00164 Rome, Metropolitan City of Rome, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x132f5fe3cf33c053:0x94d7dfca4cfc0e11&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x132f5fe3cf33c053:0x94d7dfca4cfc0e11&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.4345889,41.88795289999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Parco Comunale - Area VERDE</name>
+		<address>00176 Rome, Metropolitan City of Rome, Italien</address>
+		<snippet>00176 Rome, Metropolitan City of Rome, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x132f622738559291:0x52757c26c9399258&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x132f622738559291:0x52757c26c9399258&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.5313504,41.88880899999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Skatepark Ostia - skate park di Roma</name>
+		<address>Via della Martinica, 13, 00121 Lido di Ostia RM, Italien</address>
+		<phoneNumber>+39 349 491 0944</phoneNumber>
+		<snippet>Via della Martinica, 13, 00121 Lido di Ostia RM, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x1325f1db0655b00d:0x9376f47340f39a16&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x1325f1db0655b00d:0x9376f47340f39a16&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.2625535,41.737956,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Skate Republic</name>
+		<address>Via dell&apos;Acqua Marcia, 51, 00158 Roma RM, Italien</address>
+		<phoneNumber>+39 06 418 2111</phoneNumber>
+		<snippet>Via dell&apos;Acqua Marcia, 51, 00158 Roma RM, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x132f639596aaaaab:0x339aa5498192aff&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x132f639596aaaaab:0x339aa5498192aff&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.5565363,41.9209063,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Skate PARK</name>
+		<address>00015 Monterotondo, Metropolitan City of Rome, Italien</address>
+		<snippet>00015 Monterotondo, Metropolitan City of Rome, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x132f71c53bcc9f05:0xdd4f6e516cd969d4&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x132f71c53bcc9f05:0xdd4f6e516cd969d4&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.6342706,42.0587588,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Block Buster Village</name>
+		<address>Corso di Francia, 253, 00191 Roma RM, Italien</address>
+		<phoneNumber>+39 06 329 6689</phoneNumber>
+		<snippet>Corso di Francia, 253, 00191 Roma RM, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x132f60ccfbbc3c0d:0x6133ecf45a518a7&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x132f60ccfbbc3c0d:0x6133ecf45a518a7&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.4691034,41.9465563,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Pattinatori del Pincio</name>
+		<address>Piazzale dei Martiri, 00197 Roma RM, Italien</address>
+		<phoneNumber>+39 392 791 9978</phoneNumber>
+		<snippet>Piazzale dei Martiri, 00197 Roma RM, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x132f61c641613553:0xfe6f2abd621572e1&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x132f61c641613553:0xfe6f2abd621572e1&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.4813028,41.9111974,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>skatepark</name>
+		<address>Via Mario Mastrangelo, 143, 00121 Lido di Ostia RM, Italien</address>
+		<snippet>Via Mario Mastrangelo, 143, 00121 Lido di Ostia RM, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x1325f150dd9f6eef:0xa185eec46ffdf6c6&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x1325f150dd9f6eef:0xa185eec46ffdf6c6&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.2556869,41.73861429999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Giardino Marcella e Maurizio Ferrara</name>
+		<address>Via Alberto Guglielmotti, 00154 Roma RM, Italien</address>
+		<snippet>Via Alberto Guglielmotti, 00154 Roma RM, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x13258a87a78fd97b:0xd14e389070db5904&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x13258a87a78fd97b:0xd14e389070db5904&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.4819502,41.8617914,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Pista di pattinaggio “Otello Stevanini”</name>
+		<address>00179 Rome, Metropolitan City of Rome, Italien</address>
+		<snippet>00179 Rome, Metropolitan City of Rome, Italien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=41.898355300000006&lng=12.444846850000001&fid=0x132f61fa53c6a6d7:0xd39efdf812d48a01&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=41.898355300000006&amp;lng=12.444846850000001&amp;fid=0x132f61fa53c6a6d7:0xd39efdf812d48a01&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>12.5216732,41.8721825,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

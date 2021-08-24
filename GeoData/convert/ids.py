@@ -1,3 +1,3 @@
 output = open("outputids.txt", "a")
-for i in range (33,1362):
-        output.write(str(i)+ "\n")
+for i in range(1362, 1500):
+    output.write(str(i) + "\n")

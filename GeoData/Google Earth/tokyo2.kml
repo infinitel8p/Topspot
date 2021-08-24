@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>tokyo skatepark</name>
+	<Placemark id="1.2.1">
+		<name>Daishigawara Skate Board Park /BMX Park</name>
+		<address>1 Chome-3 Daishigawara, Kawasaki Ward, Kawasaki, Kanagawa 210-0811, Japan</address>
+		<phoneNumber>+81 44-200-2390</phoneNumber>
+		<snippet>1 Chome-3 Daishigawara, Kawasaki Ward, Kawasaki, Kanagawa 210-0811, Japan</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x6018612514f768ab:0x897931c2c91d7d34&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x6018612514f768ab:0x897931c2c91d7d34&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.7404648,35.5389248,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Skate Park</name>
+		<address>22 2 Chome, ２２ Tamacho, Fuchu, Tokyo 183-0002, Japan</address>
+		<snippet>22 2 Chome, ２２ Tamacho, Fuchu, Tokyo 183-0002, Japan</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x6018e54e77b74a1f:0x57335852c066dc34&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x6018e54e77b74a1f:0x57335852c066dc34&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.5202085,35.6874565,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>TRINITY B3 SKATE PARK</name>
+		<address>4 Chome-12 Funado, Itabashi City, Tokyo 174-0041, Japan</address>
+		<snippet>4 Chome-12 Funado, Itabashi City, Tokyo 174-0041, Japan</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x6018eca66d3c078d:0x5f646395f344c943&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x6018eca66d3c078d:0x5f646395f344c943&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.6798983,35.7940922,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>M&apos;s Ramp Lab Skate Park</name>
+		<address>254-1 Minamiushiroya, Yashio, Saitama 340-0831, Japan</address>
+		<phoneNumber>+81 48-960-0417</phoneNumber>
+		<snippet>254-1 Minamiushiroya, Yashio, Saitama 340-0831, Japan</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x601890e03ca2d0ff:0xa35094bba8daa41a&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x601890e03ca2d0ff:0xa35094bba8daa41a&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.8145904,35.8324699,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Johnanjima seaside park Skateboard Park / BMX Park</name>
+		<address>4 Chome-2-2 Jonanjima, Ota City, Tokyo 143-0002, Japan</address>
+		<snippet>4 Chome-2-2 Jonanjima, Ota City, Tokyo 143-0002, Japan</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x60186388ad1e5b59:0x9d0286c77306ea93&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x60186388ad1e5b59:0x9d0286c77306ea93&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.7825802,35.58309819999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>ストリートスポーツ広場</name>
+		<address>5 Chome-11-33 Kichijoji Kitamachi, Musashino, Tokyo 180-0001, Japan</address>
+		<snippet>5 Chome-11-33 Kichijoji Kitamachi, Musashino, Tokyo 180-0001, Japan</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x6018ef01d4a54431:0x4959343d9af4b9b9&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x6018ef01d4a54431:0x4959343d9af4b9b9&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.5681382,35.7189096,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>DIORAMA Skate Lounge</name>
+		<address>Japan, 〒173-0004 Tokyo, Itabashi City, Itabashi, 1 Chome−48−8 ダイアパレス新板橋 B1</address>
+		<phoneNumber>+81 3-6905-6203</phoneNumber>
+		<snippet>Japan, 〒173-0004 Tokyo, Itabashi City, Itabashi, 1 Chome−48−8 ダイアパレス新板橋 B1</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x601893c1145c149d:0xd365e5c0d4b2cf96&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x601893c1145c149d:0xd365e5c0d4b2cf96&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.7188762,35.7483178,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Yashio Skate Park</name>
+		<address>Japan, 〒140-0003 Tokyo, Shinagawa City, Yashio, 4 Chome−2, 大井ふ頭中央海浜公園なぎさの森 臨時駐車場</address>
+		<snippet>Japan, 〒140-0003 Tokyo, Shinagawa City, Yashio, 4 Chome−2, 大井ふ頭中央海浜公園なぎさの森 臨時駐車場</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x601861d00bf93473:0xf29b37d69bacd00e&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x601861d00bf93473:0xf29b37d69bacd00e&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.7506263,35.59354709999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Tanimoto Koen Skate Park</name>
+		<address>31-10 Shimoyamotocho, Aoba Ward, Yokohama, Kanagawa 227-0042, Japan</address>
+		<phoneNumber>+81 45-511-7366</phoneNumber>
+		<snippet>31-10 Shimoyamotocho, Aoba Ward, Yokohama, Kanagawa 227-0042, Japan</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x6018f791c8c3d8e9:0x1f0d92756f540cbb&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x6018f791c8c3d8e9:0x1f0d92756f540cbb&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.5392034,35.5460643,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Tamachi Skate Board space</name>
+		<address>4 Chome-20 Shibaura, Minato City, Tokyo 105-0023, Japan</address>
+		<phoneNumber>+81 3-6400-0032</phoneNumber>
+		<snippet>4 Chome-20 Shibaura, Minato City, Tokyo 105-0023, Japan</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=35.62014165&lng=139.5512877&fid=0x60188a4a3653769b:0x584ea9d5ea9b4d80&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=35.62014165&amp;lng=139.5512877&amp;fid=0x60188a4a3653769b:0x584ea9d5ea9b4d80&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>139.7502096,35.6392566,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

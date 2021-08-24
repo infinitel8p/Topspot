@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>skatepark in Australia</name>
+	<Placemark id="1.2.1">
+		<name>Epping Skatepark</name>
+		<address>146 McDonalds Rd, Epping VIC 3076, Australien</address>
+		<snippet>146 McDonalds Rd, Epping VIC 3076, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ad64951c360998f:0x67cc45113ffd90c3&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ad64951c360998f:0x67cc45113ffd90c3&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>145.056605,-37.6468293,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Box Hill Skatepark</name>
+		<address>Canterbury Rd &amp; Middleborough Rd, Box Hill South VIC 3128, Australien</address>
+		<phoneNumber>+61 3 9262 6333</phoneNumber>
+		<snippet>Canterbury Rd &amp; Middleborough Rd, Box Hill South VIC 3128, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ad640a0feb50013:0x915f68ec3d6c0a56&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ad640a0feb50013:0x915f68ec3d6c0a56&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>145.1352632,-37.8308977,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Mona Vale Skate Park</name>
+		<address>1604 Pittwater Rd, Mona Vale NSW 2103, Australien</address>
+		<snippet>1604 Pittwater Rd, Mona Vale NSW 2103, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b0d54962ab83247:0x4fdb4c2fb038b9dd&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b0d54962ab83247:0x4fdb4c2fb038b9dd&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>151.3034441,-33.6801174,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Ballajura Skate Park</name>
+		<address>199 Illawarra Cres, Ballajura WA 6066, Australien</address>
+		<snippet>199 Illawarra Cres, Ballajura WA 6066, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x2a32b1992e71bc6d:0x85837512d040d8ee&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x2a32b1992e71bc6d:0x85837512d040d8ee&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>115.8931701,-31.838974,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Varsity Skatepark</name>
+		<address>Cassia Dr, Varsity Lakes QLD 4227, Australien</address>
+		<phoneNumber>+61 7 5593 7006</phoneNumber>
+		<snippet>Cassia Dr, Varsity Lakes QLD 4227, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b9103184aa13c6d:0x694b5954fcd48c29&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b9103184aa13c6d:0x694b5954fcd48c29&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>153.4182984,-28.100064,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Rockingham Skate Park</name>
+		<address>Grange Dr &amp; Willmott Drive, Cooloongup WA 6168, Australien</address>
+		<phoneNumber>+61 8 9528 0333</phoneNumber>
+		<snippet>Grange Dr &amp; Willmott Drive, Cooloongup WA 6168, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x2a328361fc1e3dc1:0xb558abedc8cc014f&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x2a328361fc1e3dc1:0xb558abedc8cc014f&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>115.7556533,-32.3003463,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Annandale Skatepark</name>
+		<address>45 White St, Lilyfield NSW 2040, Australien</address>
+		<snippet>45 White St, Lilyfield NSW 2040, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b12afdf6a068b59:0x640e168e80e603c6&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b12afdf6a068b59:0x640e168e80e603c6&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>151.1679771,-33.8777439,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Jacana Skatepark</name>
+		<address>61 Johnstone St, Jacana VIC 3047, Australien</address>
+		<snippet>61 Johnstone St, Jacana VIC 3047, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ad65a5dfe25d257:0xae9e9ee296f1ff77&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ad65a5dfe25d257:0xae9e9ee296f1ff77&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>144.9116771,-37.6830279,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Granville Skate Park</name>
+		<address>Woodville Rd, Merrylands NSW 2160, Australien</address>
+		<snippet>Woodville Rd, Merrylands NSW 2160, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b12bd2a4049b851:0xb6220c8bd77791bd&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b12bd2a4049b851:0xb6220c8bd77791bd&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>150.9987438,-33.8401491,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Dandenong Skatepark</name>
+		<address>63 Princes Hwy, Dandenong VIC 3175, Australien</address>
+		<snippet>63 Princes Hwy, Dandenong VIC 3175, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ad6140de60fca1f:0x6daeadfd66d7bb6b&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ad6140de60fca1f:0x6daeadfd66d7bb6b&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>145.2087186,-37.98061939999999,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

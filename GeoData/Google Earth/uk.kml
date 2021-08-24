@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>skatepark in uk</name>
+	<Placemark id="1.2.1">
+		<name>Southsea Skatepark</name>
+		<address>Clarence Esplanade, Southsea, Portsmouth, Southsea PO5 3NZ, Vereinigtes Königreich</address>
+		<phoneNumber>+44 23 9229 5360</phoneNumber>
+		<snippet>Clarence Esplanade, Southsea, Portsmouth, Southsea PO5 3NZ, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x48745d94861819b5:0x4145eddfbe604ec6&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x48745d94861819b5:0x4145eddfbe604ec6&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.087137,50.780457,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Horsham Skatepark.</name>
+		<address>Horsham RH12 2DW, Vereinigtes Königreich</address>
+		<snippet>Horsham RH12 2DW, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x4875ea4ca8d18101:0x936bb0393304f869&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x4875ea4ca8d18101:0x936bb0393304f869&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.3249123,51.0689654,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Winchester Skatepark</name>
+		<address>3 Park Ave, Winchester SO23 8DJ, Vereinigtes Königreich</address>
+		<snippet>3 Park Ave, Winchester SO23 8DJ, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x48741275579ba80f:0x460651e5acbe6982&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x48741275579ba80f:0x460651e5acbe6982&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.3105559,51.0668582,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Asylum Skatepark</name>
+		<address>Unit 8 Hamilton Rd, Sutton-in-Ashfield NG17 5LD, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1623 559494</phoneNumber>
+		<snippet>Unit 8 Hamilton Rd, Sutton-in-Ashfield NG17 5LD, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x48799404fcbadb5f:0x4736c93a363f50c9&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x48799404fcbadb5f:0x4736c93a363f50c9&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.2327084,53.12324509999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Unit 1 Skatepark. (Rochester)</name>
+		<address>Unit 1b, Rochester Airport Industrial Estate, Laker Rd, Rochester ME1 3QX, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1634 868168</phoneNumber>
+		<snippet>Unit 1b, Rochester Airport Industrial Estate, Laker Rd, Rochester ME1 3QX, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x47d8cccf202f6003:0x92724c860880a5ed&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x47d8cccf202f6003:0x92724c860880a5ed&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>0.5015391,51.3504388,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Ramp 1</name>
+		<address>penketh business park, Unit 1 A, Liverpool Rd, Warrington WA5 1QX, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1925 747733</phoneNumber>
+		<snippet>penketh business park, Unit 1 A, Liverpool Rd, Warrington WA5 1QX, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x487b02e9a9193107:0x1709e0324d5c4265&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x487b02e9a9193107:0x1709e0324d5c4265&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-2.6325945,53.38500719999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>White Grounds Skatepark</name>
+		<address>London SE1 2ET, Vereinigtes Königreich</address>
+		<snippet>London SE1 2ET, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x48760345192c125b:0x462cedf8f55ebf95&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x48760345192c125b:0x462cedf8f55ebf95&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.07997609999999999,51.502056,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>The Base Skate Park CIC</name>
+		<address>Steyning Way Southern Cross Industrial Estate, Unit 4 Oldlands Way, Bognor Regis PO22 9SE, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1243 217480</phoneNumber>
+		<snippet>Steyning Way Southern Cross Industrial Estate, Unit 4 Oldlands Way, Bognor Regis PO22 9SE, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x4875adcade8ec129:0x7756687de08f4678&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x4875adcade8ec129:0x7756687de08f4678&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.6657581,50.8020278,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>New Milton Skatepark.</name>
+		<address>New Milton Skatepark, Station Rd, Parkview Mews, New Milton BH25 6NA, Vereinigtes Königreich</address>
+		<snippet>New Milton Skatepark, Station Rd, Parkview Mews, New Milton BH25 6NA, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x487384a6e91c3e0b:0x1897f0f2e300e784&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x487384a6e91c3e0b:0x1897f0f2e300e784&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.6571226,50.7537545,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Mount Hawke Skatepark</name>
+		<address>Waterworks, Gover House, Mount Hawke, Skatepark TR4 8BQ, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1209 890705</phoneNumber>
+		<snippet>Waterworks, Gover House, Mount Hawke, Skatepark TR4 8BQ, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.3771171&lng=-2.31247725&fid=0x486b1924ac1cf44b:0x646e2adf9920a1a9&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.3771171&amp;lng=-2.31247725&amp;fid=0x486b1924ac1cf44b:0x646e2adf9920a1a9&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-5.1938542,50.2836557,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

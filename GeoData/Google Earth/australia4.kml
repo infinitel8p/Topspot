@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>skatepark in Australia</name>
+	<Placemark id="1.2.1">
+		<name>Glenroy Skatepark</name>
+		<address>33 Glenroy Rd, Glenroy VIC 3046, Australien</address>
+		<snippet>33 Glenroy Rd, Glenroy VIC 3046, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ad65ae25ce96ba9:0x4554561c8fbce295&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ad65ae25ce96ba9:0x4554561c8fbce295&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>144.9311221,-37.7071904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Brunswick Skatepark</name>
+		<address>417 Victoria St, Brunswick VIC 3056, Australien</address>
+		<snippet>417 Victoria St, Brunswick VIC 3056, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ad65cb16906d47f:0xa210a0f46c213564&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ad65cb16906d47f:0xa210a0f46c213564&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>144.9548838,-37.7664384,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Meadowbank Skate Park</name>
+		<address>Constitution Rd, Meadowbank NSW 2114, Australien</address>
+		<phoneNumber>+61 2 9952 8222</phoneNumber>
+		<snippet>Constitution Rd, Meadowbank NSW 2114, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b12a57999163595:0x230638d81da5cb91&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b12a57999163595:0x230638d81da5cb91&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>151.0842313,-33.8150893,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Tugun Skatepark</name>
+		<address>Boyd St, Tugun QLD 4224, Australien</address>
+		<phoneNumber>+61 413 311 511</phoneNumber>
+		<snippet>Boyd St, Tugun QLD 4224, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b9101f1a69698c7:0x35493867039d84a9&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b9101f1a69698c7:0x35493867039d84a9&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>153.4983124,-28.1522323,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Elanora Skate Park</name>
+		<address>1 Pines Ln, Elanora QLD 4221, Australien</address>
+		<snippet>1 Pines Ln, Elanora QLD 4221, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b9102370746749d:0x3e97dd78d70c73c3&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b9102370746749d:0x3e97dd78d70c73c3&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>153.4656276,-28.1278889,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Prahran Skatepark</name>
+		<address>288 Malvern Rd, Prahran VIC 3181, Australien</address>
+		<snippet>288 Malvern Rd, Prahran VIC 3181, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ad6682f2fbbd9f3:0x1f16277e0ab880c8&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ad6682f2fbbd9f3:0x1f16277e0ab880c8&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>144.9964558,-37.8477131,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Moorebank Skatepark</name>
+		<address>Moorebank NSW 2170, Australien</address>
+		<phoneNumber>+61 436 743 347</phoneNumber>
+		<snippet>Moorebank NSW 2170, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b129591df827c55:0x4e03d8dad7c952e&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b129591df827c55:0x4e03d8dad7c952e&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>150.9424258,-33.9297836,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Crimea Skate Park</name>
+		<address>21 Driscoll Way, Morley WA 6062, Australien</address>
+		<phoneNumber>+61 8 9272 0622</phoneNumber>
+		<snippet>21 Driscoll Way, Morley WA 6062, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x2a32b08b96cf6083:0x5907ef93ee73db2c&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x2a32b08b96cf6083:0x5907ef93ee73db2c&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>115.9053054,-31.8859036,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Manly Skate Park</name>
+		<address>351B Pittwater Rd, North Manly NSW 2100, Australien</address>
+		<phoneNumber>+61 1300 434 434</phoneNumber>
+		<snippet>351B Pittwater Rd, North Manly NSW 2100, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b12aaffe34a4a3d:0xe69311e5386ffbfe&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b12aaffe34a4a3d:0xe69311e5386ffbfe&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>151.2807652,-33.7842389,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Scarborough Beach Skate Park</name>
+		<address>150 The Esplanade, Scarborough WA 6019, Australien</address>
+		<phoneNumber>+61 8 9205 8555</phoneNumber>
+		<snippet>150 The Esplanade, Scarborough WA 6019, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x2a32a8d5621a3615:0xdfe95d5d331fc6b7&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x2a32a8d5621a3615:0xdfe95d5d331fc6b7&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>115.7558377,-31.8932171,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

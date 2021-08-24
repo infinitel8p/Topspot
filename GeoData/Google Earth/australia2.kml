@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>skatepark in Australia</name>
+	<Placemark id="1.2.1">
+		<name>Forrestfield Skate Park</name>
+		<address>1243 Hartfield Rd, Forrestfield WA 6058, Australien</address>
+		<phoneNumber>+61 8 9257 9999</phoneNumber>
+		<snippet>1243 Hartfield Rd, Forrestfield WA 6058, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x2a32bf1f28224713:0x4e6b1ec044e1db12&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x2a32bf1f28224713:0x4e6b1ec044e1db12&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>115.9994545,-31.9910031,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Level Up Skatepark &amp; Training Facility</name>
+		<address>8 Coghill Dr, Currumbin Waters QLD 4223, Australien</address>
+		<phoneNumber>+61 411 565 410</phoneNumber>
+		<snippet>8 Coghill Dr, Currumbin Waters QLD 4223, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b9111d63d20c5d1:0xb34c8b2421112c80&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b9111d63d20c5d1:0xb34c8b2421112c80&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>153.4747831,-28.1494859,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Bar Beach Skate Park</name>
+		<address>Empire Park, Bar Beach NSW 2300, Australien</address>
+		<snippet>Empire Park, Bar Beach NSW 2300, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b73143eaeaaaaab:0x26006887aa6e8cfd&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b73143eaeaaaaab:0x26006887aa6e8cfd&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>151.765621,-32.9418922,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Jindalee Skate Park</name>
+		<address>44 Amazons Pl, Jindalee QLD 4074, Australien</address>
+		<snippet>44 Amazons Pl, Jindalee QLD 4074, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b9151de8882e58b:0x6e68b2f5f4e13263&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b9151de8882e58b:0x6e68b2f5f4e13263&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>152.9474144,-27.5292465,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Coomera Skate Park</name>
+		<address>Dreamworld Pkwy, Coomera QLD 4209, Australien</address>
+		<snippet>Dreamworld Pkwy, Coomera QLD 4209, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b9113e18ab87425:0x4f3e1c29a45d5313&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b9113e18ab87425:0x4f3e1c29a45d5313&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>153.3150634,-27.8712444,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Bassendean Skate Park</name>
+		<address>West Rd &amp;, Guildford Rd, Bassendean WA 6054, Australien</address>
+		<snippet>West Rd &amp;, Guildford Rd, Bassendean WA 6054, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x2a32b94e00278f35:0xc40a498b63e20531&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x2a32b94e00278f35:0xc40a498b63e20531&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>115.9548959,-31.9025818,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Balmoral Skate Park</name>
+		<address>11 Coronation Ave, Mosman NSW 2088, Australien</address>
+		<snippet>11 Coronation Ave, Mosman NSW 2088, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b12ac125f7058cd:0x74860e1224401f8b&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b12ac125f7058cd:0x74860e1224401f8b&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>151.2539305,-33.8304146,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Temporary City Skate Park</name>
+		<address>Park 15, Wakefield Rd, Adelaide SA 5000, Australien</address>
+		<phoneNumber>+61 8 8203 7203</phoneNumber>
+		<snippet>Park 15, Wakefield Rd, Adelaide SA 5000, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ab0cf2f18baaaab:0xdf0fde0c62281e84&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ab0cf2f18baaaab:0xdf0fde0c62281e84&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>138.6175744,-34.9271349,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Cherrybrook Skatepark</name>
+		<address>Shepherds Dr, Cherrybrook NSW 2126, Australien</address>
+		<snippet>Shepherds Dr, Cherrybrook NSW 2126, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6b12a72d34b03ccd:0x95beba96e72dc175&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6b12a72d34b03ccd:0x95beba96e72dc175&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>151.0444751,-33.7197173,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Yarraville Skatepark</name>
+		<address>126 Anderson St, Yarraville VIC 3013, Australien</address>
+		<snippet>126 Anderson St, Yarraville VIC 3013, Australien</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&lng=134.552&fid=0x6ad6674f9d88c1db:0x9a5f1c1abf32b098&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=-31.638700000000004&amp;lng=134.552&amp;fid=0x6ad6674f9d88c1db:0x9a5f1c1abf32b098&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>144.8832485,-37.8156956,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>usa skatepark</name>
+	<Placemark id="1.2.1">
+		<name>Asylum Skate Park</name>
+		<address>29850 North Skokie Hwy, Lake Bluff, IL 60044, Vereinigte Staaten</address>
+		<phoneNumber>+1 847-578-5103</phoneNumber>
+		<snippet>29850 North Skokie Hwy, Lake Bluff, IL 60044, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x880f93605d5af5a3:0x90c87a174cc3e93f&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x880f93605d5af5a3:0x90c87a174cc3e93f&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-87.87662639999999,42.2954478,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Lynch Family Skatepark</name>
+		<address>Education St, Cambridge, MA 02141, Vereinigte Staaten</address>
+		<phoneNumber>+1 617-608-1410</phoneNumber>
+		<snippet>Education St, Cambridge, MA 02141, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x89e3709465c89cfd:0xb8db1544f3a42cd3&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x89e3709465c89cfd:0xb8db1544f3a42cd3&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-71.0678704,42.3701829,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Carbondale Skate Park</name>
+		<address>Belmont St, Carbondale, PA 18407, Vereinigte Staaten</address>
+		<snippet>Belmont St, Carbondale, PA 18407, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x89c4cdbb8d576473:0x9f23c42734a19584&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x89c4cdbb8d576473:0x9f23c42734a19584&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-75.4976315,41.5760049,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Burnham Skate Park</name>
+		<address>Burnham Park, Chicago, IL 60616, Vereinigte Staaten</address>
+		<phoneNumber>+1 312-742-7529</phoneNumber>
+		<snippet>Burnham Park, Chicago, IL 60616, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x880e2b92cb50dd55:0x3fe8683f6599cf6a&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x880e2b92cb50dd55:0x3fe8683f6599cf6a&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-87.60729789999999,41.83531809999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Fortville Skatepark</name>
+		<address>399 W Church St, Fortville, IN 46040, Vereinigte Staaten</address>
+		<snippet>399 W Church St, Fortville, IN 46040, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x8814cb6425c8c09d:0x714dc64d941f9c13&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x8814cb6425c8c09d:0x714dc64d941f9c13&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-85.8563551,39.9331538,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Wheatlands Skate Park</name>
+		<address>2660 Spinnaker Dr, Aurora, IL 60503, Vereinigte Staaten</address>
+		<snippet>2660 Spinnaker Dr, Aurora, IL 60503, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x880ef0cc6bbc0bf3:0xe73fa9b8119e38aa&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x880ef0cc6bbc0bf3:0xe73fa9b8119e38aa&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-88.2495636,41.7214474,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Palatine Skatepark</name>
+		<address>Palatine Prairie, W Wood St, Palatine, IL 60067, Vereinigte Staaten</address>
+		<snippet>Palatine Prairie, W Wood St, Palatine, IL 60067, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x880fa543c6eb62af:0x706be71b910122ee&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x880fa543c6eb62af:0x706be71b910122ee&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-88.0613048,42.1146181,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Hayes Lemmerz Skate Park</name>
+		<address>2nd St, Huntington, IN 46750, Vereinigte Staaten</address>
+		<phoneNumber>+1 260-356-1400</phoneNumber>
+		<snippet>2nd St, Huntington, IN 46750, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x8815c9c8139c8909:0x79a3dd567b4db15f&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x8815c9c8139c8909:0x79a3dd567b4db15f&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-85.48818779999999,40.88979339999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Round Lake Skate Park</name>
+		<address>1911 N Orchard Ln, Round Lake Beach, IL 60073, Vereinigte Staaten</address>
+		<snippet>1911 N Orchard Ln, Round Lake Beach, IL 60073, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x880f8534df5d537b:0xd5d2fa546bde109&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x880f8534df5d537b:0xd5d2fa546bde109&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-88.0764915,42.3828193,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Hingham Skatepark</name>
+		<address>25 Bare Cove Park Dr, Hingham, MA 02043, Vereinigte Staaten</address>
+		<snippet>25 Bare Cove Park Dr, Hingham, MA 02043, Vereinigte Staaten</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.4837&lng=-67.1351&fid=0x89e363e22466ab3d:0x45161d9a6666fd92&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=50.4837&amp;lng=-67.1351&amp;fid=0x89e363e22466ab3d:0x45161d9a6666fd92&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-70.909052,42.236806,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

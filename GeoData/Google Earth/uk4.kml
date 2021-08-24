@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>skatepark in uk</name>
+	<Placemark id="1.2.1">
+		<name>Acton Skatepark.</name>
+		<address>London W3 7FT, Vereinigtes Königreich</address>
+		<snippet>London W3 7FT, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x48760f46b376a14f:0x958cd1295de3b27a&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x48760f46b376a14f:0x958cd1295de3b27a&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.2585587,51.50859089999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>Crystal Palace Skatepark</name>
+		<address>London SE20 8DT, Vereinigtes Königreich</address>
+		<snippet>London SE20 8DT, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x48760166469fc0bb:0x94d3af96a5ed40d8&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x48760166469fc0bb:0x94d3af96a5ed40d8&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.0664116,51.4226328,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Rampworx Skatepark &amp; Shop</name>
+		<address>1-3 Leckwith Rd, Bootle L30 6UE, Vereinigtes Königreich</address>
+		<phoneNumber>+44 151 530 1500</phoneNumber>
+		<snippet>1-3 Leckwith Rd, Bootle L30 6UE, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x487b23aa7cba981d:0x77c81fbd070b2451&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x487b23aa7cba981d:0x77c81fbd070b2451&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-2.956966,53.48257220000001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Horley Skatepark</name>
+		<address>Horley Recreation Ground, UK, Horley, Vereinigtes Königreich</address>
+		<snippet>Horley Recreation Ground, UK, Horley, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x4875f16394ee20a1:0xfc2986e3a00a80dd&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x4875f16394ee20a1:0xfc2986e3a00a80dd&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.1705592,51.176394,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Whiteparish Skatepark.</name>
+		<address>A27, Whiteparish, Salisbury SP5, UK, Vereinigtes Königreich</address>
+		<snippet>A27, Whiteparish, Salisbury SP5, UK, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x4873f38e54538d27:0x2a0912a669d981f3&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x4873f38e54538d27:0x2a0912a669d981f3&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.646552,51.01138599999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Skaterham Skatepark</name>
+		<address>The Village, Guards Ave, Caterham CR3 5XL, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1883 348184</phoneNumber>
+		<snippet>The Village, Guards Ave, Caterham CR3 5XL, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x4875fc214322f7cd:0x8a4d0290e57c013c&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x4875fc214322f7cd:0x8a4d0290e57c013c&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.1014845,51.2912721,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Stockwell Skate Park</name>
+		<address>Stockwell Skate Park, Stockwell Rd, London SW9 0XZ, Vereinigtes Königreich</address>
+		<phoneNumber>+44 20 7926 9000</phoneNumber>
+		<snippet>Stockwell Skate Park, Stockwell Rd, London SW9 0XZ, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x4876046768e8e50d:0xfe42f273152a4b7&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x4876046768e8e50d:0xfe42f273152a4b7&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.1163401,51.4660545,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>Rush Skatepark</name>
+		<address>UNIT 3, BRIMSCOMBE GL5 2QQ, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1453 889457</phoneNumber>
+		<snippet>UNIT 3, BRIMSCOMBE GL5 2QQ, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x48710c45b37a734f:0x49002e2e024da20f&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x48710c45b37a734f:0x49002e2e024da20f&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-2.1905301,51.7196668,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Adrenaline Alley</name>
+		<address>6 Priors Haw Rd, Corby NN17 5PH, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1536 202049</phoneNumber>
+		<snippet>6 Priors Haw Rd, Corby NN17 5PH, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x48779b1b73a850cf:0x8f4971fddc4522d1&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x48779b1b73a850cf:0x8f4971fddc4522d1&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.6449442,52.5019065,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Harrow Skate Park</name>
+		<address>186 Christchurch Ave, Harrow HA3 5BD, Vereinigtes Königreich</address>
+		<snippet>186 Christchurch Ave, Harrow HA3 5BD, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=52.24697445&lng=-1.4891800000000002&fid=0x48761383e3fedecf:0x1b4e0ea03d9f9a15&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=52.24697445&amp;lng=-1.4891800000000002&amp;fid=0x48761383e3fedecf:0x1b4e0ea03d9f9a15&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.325644,51.5932574,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>

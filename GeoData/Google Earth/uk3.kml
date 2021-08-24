@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder id="results">
+	<name>skatepark in uk</name>
+	<Placemark id="1.2.1">
+		<name>Walthamstow Skatepark</name>
+		<address>55 Omnibus Way, London E17 4QF, Vereinigtes Königreich</address>
+		<snippet>55 Omnibus Way, London E17 4QF, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x48761de0ce14e4ef:0xf80e5ca9b521c665&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_A</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x48761de0ce14e4ef:0xf80e5ca9b521c665&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.021394,51.59437229999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.3.1">
+		<name>BAYSIXTY6 Skate Park</name>
+		<address>Bay, 66 Acklam Rd, London W10 5YU, Vereinigtes Königreich</address>
+		<phoneNumber>+44 20 8969 4669</phoneNumber>
+		<snippet>Bay, 66 Acklam Rd, London W10 5YU, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x4876101bf98d8955:0x4bdfa47b37aaee4b&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_B</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x4876101bf98d8955:0x4bdfa47b37aaee4b&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.2049688,51.520674,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.4.1">
+		<name>Mile End Park Skatepark.</name>
+		<address>St Paul&apos;s Way, London E3 4AG, Vereinigtes Königreich</address>
+		<snippet>St Paul&apos;s Way, London E3 4AG, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x48761d3233423ea5:0x24f4d776adc3f9f3&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_C</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x48761d3233423ea5:0x24f4d776adc3f9f3&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.0315249,51.517624,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.5.1">
+		<name>Victoria Park Raemers Skatepark.</name>
+		<address>Victoria Park, London E3 5PE, Vereinigtes Königreich</address>
+		<snippet>Victoria Park, London E3 5PE, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x48761d178fe19621:0x1b543c8ddedffd38&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_D</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x48761d178fe19621:0x1b543c8ddedffd38&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.03488339999999999,51.5381364,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.6.1">
+		<name>Flo Skatepark</name>
+		<address>5 Poulton Dr, Nottingham NG2 4BN, Vereinigtes Königreich</address>
+		<phoneNumber>+44 7863 130300</phoneNumber>
+		<snippet>5 Poulton Dr, Nottingham NG2 4BN, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x4879c3dd2e71060b:0xe03a719133b8dd7&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_E</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x4879c3dd2e71060b:0xe03a719133b8dd7&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.126676,52.9441877,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.7.1">
+		<name>Unit 1 Park Works CIC (Indoor Skatepark)</name>
+		<address>Unit 1, Park Works, Ogden Rd, Hanley, Stoke-on-Trent ST1 3BX, Vereinigtes Königreich</address>
+		<phoneNumber>+44 1782 204722</phoneNumber>
+		<snippet>Unit 1, Park Works, Ogden Rd, Hanley, Stoke-on-Trent ST1 3BX, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x487a69d37c75998b:0x9bf7b67fcc217bcf&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_F</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x487a69d37c75998b:0x9bf7b67fcc217bcf&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-2.1729305,53.0209165,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.8.1">
+		<name>Northampton Skatepark.</name>
+		<address>Bedford Rd, Northampton NN1 5PE, Vereinigtes Königreich</address>
+		<phoneNumber>+44 300 330 7000</phoneNumber>
+		<snippet>Bedford Rd, Northampton NN1 5PE, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x48770ed5c3272265:0x74942c1c1e204498&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_G</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x48770ed5c3272265:0x74942c1c1e204498&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.8799205,52.2318935,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.9.1">
+		<name>The House Skate Park</name>
+		<address>Unit D, Bardwell Road, Sheffield S3 8AS, Vereinigtes Königreich</address>
+		<phoneNumber>+44 114 249 0055</phoneNumber>
+		<snippet>Unit D, Bardwell Road, Sheffield S3 8AS, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x4879788836cbf5fb:0xf6b6b18d515ef85e&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_H</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x4879788836cbf5fb:0xf6b6b18d515ef85e&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-1.4783772,53.3940395,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.10.1">
+		<name>Hereford Skatepark</name>
+		<address>9bd, 50 Holmer Rd, Hereford HR4 9BD, Vereinigtes Königreich</address>
+		<snippet>9bd, 50 Holmer Rd, Hereford HR4 9BD, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x48704a26c5562bab:0xbd71974b17ce6a05&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_I</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x48704a26c5562bab:0xbd71974b17ce6a05&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-2.7226645,52.0714718,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="1.11.1">
+		<name>Guildford Skatepark</name>
+		<address>Guildford GU1 1EZ, Vereinigtes Königreich</address>
+		<snippet>Guildford GU1 1EZ, Vereinigtes Königreich</snippet>
+		<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=53.10939695&lng=-1.1105627000000002&fid=0x4875d0a3ee8609e7:0x833a470a095b8dc7&hl=de&gl=de&client=earth-client&cv=7.3.4.8248&useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+		<styleUrl>#listing_J</styleUrl>
+		<ExtendedData>
+			<Data name="placepageUri">
+				<value>https://www.google.com/earth/rpc/entity?lat=53.10939695&amp;lng=-1.1105627000000002&amp;fid=0x4875d0a3ee8609e7:0x833a470a095b8dc7&amp;hl=de&amp;gl=de&amp;client=earth-client&amp;cv=7.3.4.8248&amp;useragent=GoogleEarth/7.3.4.8248(Windows;Microsoft Windows (6.2.9200.0);de;kml:2.2;client:Pro;type:default)</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-0.5682081999999999,51.2455024,0</coordinates>
+		</Point>
+	</Placemark>
+</Folder>
+</kml>
