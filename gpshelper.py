@@ -54,9 +54,11 @@ class GpsHelper():
         if platform == "android" or platform == "ios":
             map = MDApp.get_running_app().root.ids.mapview
             map.center_on(my_lat, my_lon)
+            map.zoom = 15
         else:
             map = MDApp.get_running_app().root.ids.mapview
             map.center_on(51.39735, 7.18072)
+            map.zoom = 15
 
     def on_auth_status(self, general_status, status_message):
         if general_status == "provider-enabled":
