@@ -2,6 +2,7 @@ from kivymd.uix.dialog import ListMDDialog
 import requests
 import certifi
 import shutil
+import os.path
 
 
 class LocationPopupMenu(ListMDDialog):
@@ -16,49 +17,85 @@ class LocationPopupMenu(ListMDDialog):
             attribute_value = str(spot_data[i])
             setattr(self, attribute_name, attribute_value)
         try:
-            if self.Image1 != "":
-                response = requests.get(
-                    str(self.Image1), verify=certifi.where())
-                file = open(f"image1{self.SpotName}{self.ID}.png", "wb")
-                file.write(response.content)
-                file.close()
+            if os.path.isfile(f"image1{self.SpotName}{self.ID}.png"):
+                print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
+                      '   ] [Image1      ] ' + "Check succedeed - Cached Image will be used")
             else:
-                response = requests.get(
-                    "https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
-                file = open(f"image1{self.SpotName}{self.ID}.png", "wb")
-                file.write(response.content)
-                file.close()
+                print('[' + '\x1b[1;33;40m' + 'INFO' + '\x1b[0m' +
+                      '   ] [Image1      ] ' + "Check failed - Image will be downloaded")
+                if self.Image1 != "":
+                    print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
+                          '   ] [Image1      ] ' + f"Found Imagsource - using {self.Image1}")
+                    response = requests.get(
+                        str(self.Image1), verify=certifi.where())
+                    file = open(f"image1{self.SpotName}{self.ID}.png", "wb")
+                    file.write(response.content)
+                    file.close()
+                else:
+                    print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
+                          '   ] [Image1      ] ' + "Missing Image - using missing.jpg")
+                    response = requests.get(
+                        "https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
+                    file = open(f"image1{self.SpotName}{self.ID}.png", "wb")
+                    file.write(response.content)
+                    file.close()
         except:
+            print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
+                  '   ] [Image1      ] ' + "Check failed - Device Offline, using error.png")
             shutil.copy("error.png", f"image1{self.SpotName}{self.ID}.png")
 
         try:
-            if self.Image2 != "":
-                response = requests.get(
-                    str(self.Image2), verify=certifi.where())
-                file = open(f"image2{self.SpotName}{self.ID}.png", "wb")
-                file.write(response.content)
-                file.close()
+            if os.path.isfile(f"image2{self.SpotName}{self.ID}.png"):
+                print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
+                      '   ] [Image2      ] ' + "Check succedeed - Cached Image will be used")
             else:
-                response = requests.get(
-                    "https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
-                file = open(f"image2{self.SpotName}{self.ID}.png", "wb")
-                file.write(response.content)
-                file.close()
+                print('[' + '\x1b[1;33;40m' + 'INFO' + '\x1b[0m' +
+                      '   ] [Image2      ] ' + "Check failed - Image will be downloaded")
+                if self.Image2 != "":
+                    print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
+                          '   ] [Image2      ] ' + f"Found Imagsource - using {self.Image2}")
+                    response = requests.get(
+                        str(self.Image2), verify=certifi.where())
+                    file = open(f"image2{self.SpotName}{self.ID}.png", "wb")
+                    file.write(response.content)
+                    file.close()
+                else:
+                    print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
+                          '   ] [Image2      ] ' + "Missing Image - using missing.jpg")
+                    response = requests.get(
+                        "https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
+                    file = open(f"image2{self.SpotName}{self.ID}.png", "wb")
+                    file.write(response.content)
+                    file.close()
         except:
+            print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
+                  '   ] [Image2      ] ' + "Check failed - Device Offline, using error.png")
             shutil.copy("error.png", f"image2{self.SpotName}{self.ID}.png")
 
         try:
-            if self.Image3 != "":
-                response = requests.get(
-                    str(self.Image3), verify=certifi.where())
-                file = open(f"image3{self.SpotName}{self.ID}.png", "wb")
-                file.write(response.content)
-                file.close()
+            if os.path.isfile(f"image3{self.SpotName}{self.ID}.png"):
+                print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
+                      '   ] [Image3      ] ' + "Check succedeed - Cached Image will be used")
             else:
-                response = requests.get(
-                    "https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
-                file = open(f"image3{self.SpotName}{self.ID}.png", "wb")
-                file.write(response.content)
-                file.close()
+                print('[' + '\x1b[1;33;40m' + 'INFO' + '\x1b[0m' +
+                      '   ] [Image3      ] ' + "Check failed - Image will be downloaded")
+                if self.Image3 != "":
+                    print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
+                          '   ] [Image3      ] ' + f"Found Imagsource - using {self.Image3}")
+                    response = requests.get(
+                        str(self.Image3), verify=certifi.where())
+                    file = open(f"image3{self.SpotName}{self.ID}.png", "wb")
+                    file.write(response.content)
+                    file.close()
+                else:
+                    print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
+                          '   ] [Image3      ] ' + "Missing Image - using missing.jpg")
+                    response = requests.get(
+                        "https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
+                    file = open(f"image3{self.SpotName}{self.ID}.png", "wb")
+                    file.write(response.content)
+                    file.close()
         except:
+            print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
+                  '   ] [Image3      ] ' + "Check failed - Device Offline, using error.png")
             shutil.copy("error.png", f"image3{self.SpotName}{self.ID}.png")
