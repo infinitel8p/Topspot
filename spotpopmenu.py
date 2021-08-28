@@ -3,6 +3,7 @@ import requests
 import certifi
 import shutil
 import os.path
+import filecmp
 
 
 class LocationPopupMenu(ListMDDialog):
@@ -17,15 +18,15 @@ class LocationPopupMenu(ListMDDialog):
             attribute_value = str(spot_data[i])
             setattr(self, attribute_name, attribute_value)
         try:
-            if os.path.isfile(f"image1{self.SpotName}{self.ID}.png"):
+            if os.path.isfile(f"image1{self.SpotName}{self.ID}.png") and filecmp.cmp(f"image1{self.SpotName}{self.ID}.png", "error.png") == False:
                 print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
-                      '   ] [Image1      ] ' + "Check succedeed - Cached Image will be used")
+                      '   ] [Image1      ] ' + "Check succedeed - Image found - Cached Image will be used")
             else:
                 print('[' + '\x1b[1;33;40m' + 'INFO' + '\x1b[0m' +
-                      '   ] [Image1      ] ' + "Check failed - Image will be downloaded")
+                      '   ] [Image1      ] ' + "Cache check failed - Image will be downloaded")
                 if self.Image1 != "":
                     print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
-                          '   ] [Image1      ] ' + f"Found Imagsource - using {self.Image1}")
+                          '   ] [Image1      ] ' + f"Found Image source - using {self.Image1}")
                     response = requests.get(
                         str(self.Image1), verify=certifi.where())
                     file = open(f"image1{self.SpotName}{self.ID}.png", "wb")
@@ -41,19 +42,19 @@ class LocationPopupMenu(ListMDDialog):
                     file.close()
         except:
             print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
-                  '   ] [Image1      ] ' + "Check failed - Device Offline, using error.png")
+                  '   ] [Image1      ] ' + "Download failed - Device Offline, using error.png")
             shutil.copy("error.png", f"image1{self.SpotName}{self.ID}.png")
 
         try:
-            if os.path.isfile(f"image2{self.SpotName}{self.ID}.png"):
+            if os.path.isfile(f"image1{self.SpotName}{self.ID}.png") and filecmp.cmp(f"image1{self.SpotName}{self.ID}.png", "error.png") == False:
                 print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
-                      '   ] [Image2      ] ' + "Check succedeed - Cached Image will be used")
+                      '   ] [Image2      ] ' + "Check succedeed - Image found - Cached Image will be used")
             else:
                 print('[' + '\x1b[1;33;40m' + 'INFO' + '\x1b[0m' +
-                      '   ] [Image2      ] ' + "Check failed - Image will be downloaded")
+                      '   ] [Image2      ] ' + "Cache check failed - Image will be downloaded")
                 if self.Image2 != "":
                     print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
-                          '   ] [Image2      ] ' + f"Found Imagsource - using {self.Image2}")
+                          '   ] [Image2      ] ' + f"Found Image source - using {self.Image2}")
                     response = requests.get(
                         str(self.Image2), verify=certifi.where())
                     file = open(f"image2{self.SpotName}{self.ID}.png", "wb")
@@ -69,19 +70,19 @@ class LocationPopupMenu(ListMDDialog):
                     file.close()
         except:
             print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
-                  '   ] [Image2      ] ' + "Check failed - Device Offline, using error.png")
+                  '   ] [Image2      ] ' + "Download failed - Device Offline, using error.png")
             shutil.copy("error.png", f"image2{self.SpotName}{self.ID}.png")
 
         try:
-            if os.path.isfile(f"image3{self.SpotName}{self.ID}.png"):
+            if os.path.isfile(f"image1{self.SpotName}{self.ID}.png") and filecmp.cmp(f"image1{self.SpotName}{self.ID}.png", "error.png") == False:
                 print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
-                      '   ] [Image3      ] ' + "Check succedeed - Cached Image will be used")
+                      '   ] [Image3      ] ' + "Check succedeed - Image found - Cached Image will be used")
             else:
                 print('[' + '\x1b[1;33;40m' + 'INFO' + '\x1b[0m' +
                       '   ] [Image3      ] ' + "Check failed - Image will be downloaded")
                 if self.Image3 != "":
                     print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
-                          '   ] [Image3      ] ' + f"Found Imagsource - using {self.Image3}")
+                          '   ] [Image3      ] ' + f"Found Image source - using {self.Image3}")
                     response = requests.get(
                         str(self.Image3), verify=certifi.where())
                     file = open(f"image3{self.SpotName}{self.ID}.png", "wb")
@@ -97,5 +98,5 @@ class LocationPopupMenu(ListMDDialog):
                     file.close()
         except:
             print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
-                  '   ] [Image3      ] ' + "Check failed - Device Offline, using error.png")
+                  '   ] [Image3      ] ' + "Download failed - Device Offline, using error.png")
             shutil.copy("error.png", f"image3{self.SpotName}{self.ID}.png")
