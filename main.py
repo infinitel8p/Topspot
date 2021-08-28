@@ -22,7 +22,8 @@ class MainApp(MDApp):
     search_menu = None
 
     def on_start(self):
-        # ['Red', 'Pink', 'Purple', 'DeepPurple', 'Indigo', 'Blue', 'LightBlue', 'Cyan', 'Teal', 'Green', 'LightGreen', 'Lime', 'Yellow', 'Amber', 'Orange', 'DeepOrange', 'Brown', 'Gray', 'BlueGray']
+        # ['Red', 'Pink', 'Purple', 'DeepPurple', 'Indigo', 'Blue', 'LightBlue', 'Cyan', 'Teal', 'Green',
+        # 'LightGreen', 'Lime', 'Yellow', 'Amber', 'Orange', 'DeepOrange', 'Brown', 'Gray', 'BlueGray']
         self.theme_cls.primary_palette = "Blue"
 
         # init gps
@@ -31,7 +32,7 @@ class MainApp(MDApp):
                   '   ] [Database    ] ' + "Beginning database download with urllib2")
             databse_url = "https://github.com/infinitel8p/Topspot/blob/master/spotlist.db?raw=true"
             response = requests.get(
-                databse_url, verify=certifi.where())  # verify=False
+                databse_url, verify=certifi.where())
             file = open("spotlist.db", "wb")
             file.write(response.content)
             file.close()

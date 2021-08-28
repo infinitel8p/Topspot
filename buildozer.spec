@@ -28,7 +28,7 @@ source.exclude_dirs = Images, bin, GeoData, tests
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 1.3.1
+version = 1.3.2
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -36,7 +36,7 @@ version = 1.3.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,
-requirements = python3,kivy==2.0.0,requests,shutil,certifi,plyer,kivy_garden.mapview,pillow,urllib3,charset-normalizer,certifi,idna,sdl2_ttf==2.0.15,sdl2
+requirements = python3,kivy==2.0.0,requests,certifi,plyer,kivy_garden.mapview,pillow,urllib3,charset-normalizer,certifi,idna,sdl2_ttf==2.0.15,sdl2
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes

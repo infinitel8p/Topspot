@@ -8,12 +8,15 @@ import filecmp
 
 def ImageCheck(imageSource, imageName, fileName, SpotName, iD):
     try:
+        # Check if image is already downloaded/created and if it is different to the error.png
         if os.path.isfile(f"cache/{fileName}{SpotName}{iD}.png") and filecmp.cmp(f"cache/{fileName}{SpotName}{iD}.png", "error.png") == False:
             print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
                   f'   ] [{imageName}     ] ' + "Check succedeed - Image found - Cached Image will be used")
+        # If image cannot be used from cache try to download the image
         else:
             print('[' + '\x1b[1;33;40m' + 'INFO' + '\x1b[0m' +
                   f'   ] [{imageName}     ] ' + "Cache check failed - Image will be downloaded")
+            # Download image if the image link in database is not empty
             if imageSource != "":
                 print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
                       f'   ] [{imageName}     ] ' + f"Found Image source - using {imageSource}")
@@ -22,14 +25,12 @@ def ImageCheck(imageSource, imageName, fileName, SpotName, iD):
                 file = open(f"cache/{fileName}{SpotName}{iD}.png", "wb")
                 file.write(response.content)
                 file.close()
+            # Use the missing.jpg if there is no image link in database
             else:
                 print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
                       f'   ] [{imageName}     ] ' + "Missing Image - using missing.jpg")
-                response = requests.get(
-                    "https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
-                file = open(f"cache/{fileName}{SpotName}{iD}.png", "wb")
-                file.write(response.content)
-                file.close()
+                shutil.copy("missing.jpg",
+                            f"cache/{fileName}{SpotName}{iD}.png")
     except:
         print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
               f'   ] [{imageName}     ] ' + "Download failed - Device Offline, using error.png")
