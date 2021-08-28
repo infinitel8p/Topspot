@@ -8,7 +8,7 @@ import filecmp
 
 def ImageCheck(imageSource, imageName, fileName, SpotName, iD):
     try:
-        if os.path.isfile(f"{fileName}{SpotName}{iD}.png") and filecmp.cmp(f"{fileName}{SpotName}{iD}.png", "error.png") == False:
+        if os.path.isfile(f"cache/{fileName}{SpotName}{iD}.png") and filecmp.cmp(f"cache/{fileName}{SpotName}{iD}.png", "error.png") == False:
             print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
                   f'   ] [{imageName}     ] ' + "Check succedeed - Image found - Cached Image will be used")
         else:
@@ -19,7 +19,7 @@ def ImageCheck(imageSource, imageName, fileName, SpotName, iD):
                       f'   ] [{imageName}     ] ' + f"Found Image source - using {imageSource}")
                 response = requests.get(
                     str(imageSource), verify=certifi.where())
-                file = open(f"{fileName}{SpotName}{iD}.png", "wb")
+                file = open(f"cache/{fileName}{SpotName}{iD}.png", "wb")
                 file.write(response.content)
                 file.close()
             else:
@@ -27,13 +27,13 @@ def ImageCheck(imageSource, imageName, fileName, SpotName, iD):
                       f'   ] [{imageName}     ] ' + "Missing Image - using missing.jpg")
                 response = requests.get(
                     "https://raw.githubusercontent.com/infinitel8p/Topspot/master/Images/missing.jpg", verify=certifi.where())
-                file = open(f"{fileName}{SpotName}{iD}.png", "wb")
+                file = open(f"cache/{fileName}{SpotName}{iD}.png", "wb")
                 file.write(response.content)
                 file.close()
     except:
         print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
               f'   ] [{imageName}     ] ' + "Download failed - Device Offline, using error.png")
-        shutil.copy("error.png", f"{fileName}{SpotName}{iD}.png")
+        shutil.copy("error.png", f"cache/{fileName}{SpotName}{iD}.png")
 
 
 class LocationPopupMenu(ListMDDialog):

@@ -188,13 +188,13 @@ Builder.load_string(
                     on_touch_up: self.load_next()
                     on_kv_post: self.height += dp(200)
                     FitImage:
-                        source: "image1%s.png"%(root.SpotName+root.ID)
+                        source: "cache/image1%s.png"%(root.SpotName+root.ID)
                         radius: [10, ]
                     FitImage:
-                        source: "image2%s.png"%(root.SpotName+root.ID)
+                        source: "cache/image2%s.png"%(root.SpotName+root.ID)
                         radius: [10, ]
                     FitImage:
-                        source: "image3%s.png"%(root.SpotName+root.ID)
+                        source: "cache/image3%s.png"%(root.SpotName+root.ID)
                         radius: [10, ]
 
                 MDList:
@@ -434,6 +434,7 @@ class BaseDialog(ThemableBehavior, ModalView):
                 instance_content_dialog.ids.sep
             )
 
+
 class ListMDDialog(BaseDialog):
     ID = StringProperty("Missing data")
     SpotName = StringProperty("Missing data")
@@ -446,7 +447,6 @@ class ListMDDialog(BaseDialog):
     Information = StringProperty("Missing data")
     updateTime = StringProperty("Missing data")
     background = StringProperty('{}ios_bg_mod.png'.format(images_path))
-
 
 
 class MDInputDialog(BaseDialog):
