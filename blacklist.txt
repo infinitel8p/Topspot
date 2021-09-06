@@ -1,6 +1,6 @@
-Images/*
-bin/*
-GeoData/*
-tests/*
-.buildozer/*
-buildozer.spec
+*/Images/*
+*/bin/*
+*/GeoData/*
+*/tests/*
+*/.buildozer/*
+*/buildozer.spec
