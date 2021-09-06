@@ -3,4 +3,3 @@
 */GeoData/*
 */tests/*
 */.buildozer/*
-*/buildozer.spec
