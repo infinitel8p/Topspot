@@ -1,6 +1,7 @@
 from kivymd.app import MDApp
 from kivy.utils import platform
 from kivymd.uix.dialog import MDDialog
+from kivymd.uix.snackbar import Snackbar
 
 
 class GpsHelper():
@@ -25,9 +26,14 @@ class GpsHelper():
         # configure gps
         if platform == "android" or platform == "ios":
             from plyer import gps
-            gps.configure(on_location=self.update_blinker_position,
-                          on_status=self.on_auth_status)
-            gps.start(minTime=1000, minDistance=0)
+            try:
+                gps.configure(on_location=self.update_blinker_position,
+                              on_status=self.on_auth_status)
+                gps.start(minTime=1000, minDistance=0)
+            except:
+                Snackbar(
+                    text=f"No GPS! Please turn on GPS.",
+                    button_callback=self.open).show()
         # else:
             # update gps coordinates on screen
         #    coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
