@@ -246,7 +246,7 @@ Builder.load_string(
                             text: root.Country
                     ThinBox:
                         ThinLabel:
-                            text: "PLZ: "
+                            text: "ZIP: "
                         ThinLabel:
                             text: root.PLZ
                     ThinBox:
