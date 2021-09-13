@@ -1,6 +1,6 @@
 from kivymd.app import MDApp
 from kivy.utils import platform
-from kivymd.uix.dialog import MDDialog
+from dialog import MDDialog
 from kivymd.uix.snackbar import Snackbar
 
 
@@ -32,8 +32,7 @@ class GpsHelper():
                 gps.start(minTime=1000, minDistance=0)
             except:
                 Snackbar(
-                    text=f"No GPS! Please turn on GPS.",
-                    button_callback=self.open).show()
+                    text=f"No GPS! Please turn on GPS.").open()
         # else:
             # update gps coordinates on screen
         #    coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
@@ -41,29 +40,37 @@ class GpsHelper():
         #    coordinate_label.text = f"GPS Coordinates:\nlat: {(min_lat+max_lat)/2}\nlon: {(min_lon+max_lon)/2}"
 
     def update_blinker_position(self, *args, **kwargs):
-        global my_lat
-        my_lat = kwargs["lat"]
-        global my_lon
-        my_lon = kwargs["lon"]
-        print("GPS Position:", my_lat, my_lon)
-        # update blinkerpos
-        gps_blinker = MDApp.get_running_app().root.ids.mapview.ids.blinker
-        gps_blinker.lat = my_lat
-        gps_blinker.lon = my_lon
-        # center map on gps
-        if not self.has_centered_map:
-            map = MDApp.get_running_app().root.ids.mapview
-            map.center_on(my_lat, my_lon)
-            self.has_centered_map = True
+        try:
+            global my_lat
+            my_lat = kwargs["lat"]
+            global my_lon
+            my_lon = kwargs["lon"]
+            print("GPS Position:", my_lat, my_lon)
+            # update blinkerpos
+            gps_blinker = MDApp.get_running_app().root.ids.mapview.ids.blinker
+            gps_blinker.lat = my_lat
+            gps_blinker.lon = my_lon
+            # center map on gps
+            if not self.has_centered_map:
+                map = MDApp.get_running_app().root.ids.mapview
+                map.center_on(my_lat, my_lon)
+                self.has_centered_map = True
+        except:
+            Snackbar(
+                text=f"No GPS! Please turn on GPS.").open()
 
     def gps_button_callback():
         if platform == "android" or platform == "ios":
-            map = MDApp.get_running_app().root.ids.mapview
-            map.center_on(my_lat, my_lon)
-            map.zoom = 15
+            try:
+                map = MDApp.get_running_app().root.ids.mapview
+                map.center_on(my_lat, my_lon)
+                map.zoom = 15
+            except:
+                # do nothing
+                pass
         else:
             map = MDApp.get_running_app().root.ids.mapview
-            map.center_on(51.39735, 7.18072)
+            map.center_on(52.51625163358924, 13.377699466276058)
             map.zoom = 15
 
     def on_auth_status(self, general_status, status_message):

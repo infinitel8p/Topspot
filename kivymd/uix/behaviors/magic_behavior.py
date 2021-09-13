@@ -1,43 +1,96 @@
 """
-https://gist.github.com/tshirtman/a1065cf74a788434e1162e342b130df8
-Write by tshirtman - https://github.com/tshirtman
+Behaviors/Magic
+===============
+
+.. rubric:: Magical effects for buttons.
+
+.. warning:: Magic effects do not work correctly with `KivyMD` buttons!
+
+To apply magic effects, you must create a new class that is inherited from the
+widget to which you apply the effect and from the :attr:`MagicBehavior` class.
+
+In `KV file`:
+
+.. code-block:: kv
+
+    <MagicButton@MagicBehavior+MDRectangleFlatButton>
+
+In `python file`:
+
+.. code-block:: python
+
+    class MagicButton(MagicBehavior, MDRectangleFlatButton):
+        pass
+
+.. rubric:: The :attr:`MagicBehavior` class provides five effects:
+
+- :attr:`MagicBehavior.wobble`
+- :attr:`MagicBehavior.grow`
+- :attr:`MagicBehavior.shake`
+- :attr:`MagicBehavior.twist`
+- :attr:`MagicBehavior.shrink`
 
 Example:
-=======
 
-from kivymd.app import MDApp
-from kivy.lang import Builder
+.. code-block:: python
 
-from kivymd.theming import ThemeManager
+    from kivy.lang import Builder
 
-KV = '''
-#:import MagicBehavior kivymd.uix.behaviors.MagicBehavior
+    from kivymd.app import MDApp
 
-
-<MDIconMagicButton@MagicBehavior+MDRaisedButton>
+    KV = '''
+    <MagicButton@MagicBehavior+MDRectangleFlatButton>
 
 
-FloatLayout:
+    MDFloatLayout:
 
-    MDIconMagicButton:
-        text: "GROW EFFECT"
-        on_release: self.grow()
-        pos_hint: {"center_x": .5, "center_y": .5}
-'''
+        MagicButton:
+            text: "WOBBLE EFFECT"
+            on_release: self.wobble()
+            pos_hint: {"center_x": .5, "center_y": .3}
+
+        MagicButton:
+            text: "GROW EFFECT"
+            on_release: self.grow()
+            pos_hint: {"center_x": .5, "center_y": .4}
+
+        MagicButton:
+            text: "SHAKE EFFECT"
+            on_release: self.shake()
+            pos_hint: {"center_x": .5, "center_y": .5}
+
+        MagicButton:
+            text: "TWIST EFFECT"
+            on_release: self.twist()
+            pos_hint: {"center_x": .5, "center_y": .6}
+
+        MagicButton:
+            text: "SHRINK EFFECT"
+            on_release: self.shrink()
+            pos_hint: {"center_x": .5, "center_y": .7}
+    '''
 
 
-class Example(MDApp):
+    class Example(MDApp):
+        def build(self):
+            return Builder.load_string(KV)
 
-    def build(self):
-        return Builder.load_string(KV)
+
+    Example().run()
 
 
-Example().run()
+.. image:: https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/kivymddoc/magic-button.gif
+   :width: 250 px
+   :align: center
 """
 
+__all__ = ("MagicBehavior",)
+
+from typing import NoReturn
+
 from kivy.animation import Animation
-from kivy.factory import Factory
 from kivy.lang import Builder
+from kivy.properties import NumericProperty
 
 Builder.load_string(
     """
@@ -67,43 +120,73 @@ Builder.load_string(
 
 
 class MagicBehavior:
-    def grow(self):
-        Animation.stop_all(self)
+
+    magic_speed = NumericProperty(1)
+    """
+    Animation playback speed.
+
+    :attr:`magic_speed` is a :class:`~kivy.properties.NumericProperty`
+    and defaults to `1`.
+    """
+
+    def grow(self) -> NoReturn:
+        """Grow effect animation."""
+
         (
-            Animation(scale_x=1.2, scale_y=1.2, t="out_quad", d=0.03)
-            + Animation(scale_x=1, scale_y=1, t="out_elastic", d=0.4)
+            Animation(
+                scale_x=1.2,
+                scale_y=1.2,
+                t="out_quad",
+                d=0.03 / self.magic_speed,
+            )
+            + Animation(
+                scale_x=1, scale_y=1, t="out_elastic", d=0.4 / self.magic_speed
+            )
         ).start(self)
 
-    def shake(self):
-        Animation.stop_all(self)
+    def shake(self) -> NoReturn:
+        """Shake effect animation."""
+
         (
-            Animation(translate_x=50, t="out_quad", d=0.02)
-            + Animation(translate_x=0, t="out_elastic", d=0.5)
+            Animation(translate_x=50, t="out_quad", d=0.02 / self.magic_speed)
+            + Animation(
+                translate_x=0, t="out_elastic", d=0.5 / self.magic_speed
+            )
         ).start(self)
 
-    def wobble(self):
-        Animation.stop_all(self)
+    def wobble(self) -> NoReturn:
+        """Wobble effect animation."""
+
         (
             (
-                Animation(scale_y=0.7, t="out_quad", d=0.03)
-                & Animation(scale_x=1.4, t="out_quad", d=0.03)
+                Animation(scale_y=0.7, t="out_quad", d=0.03 / self.magic_speed)
+                & Animation(
+                    scale_x=1.4, t="out_quad", d=0.03 / self.magic_speed
+                )
             )
             + (
-                Animation(scale_y=1, t="out_elastic", d=0.5)
-                & Animation(scale_x=1, t="out_elastic", d=0.4)
+                Animation(scale_y=1, t="out_elastic", d=0.5 / self.magic_speed)
+                & Animation(
+                    scale_x=1, t="out_elastic", d=0.4 / self.magic_speed
+                )
             )
         ).start(self)
 
-    def twist(self):
-        Animation.stop_all(self)
+    def twist(self) -> NoReturn:
+        """Twist effect animation."""
+
         (
-            Animation(rotate=25, t="out_quad", d=0.05)
-            + Animation(rotate=0, t="out_elastic", d=0.5)
+            Animation(rotate=25, t="out_quad", d=0.05 / self.magic_speed)
+            + Animation(rotate=0, t="out_elastic", d=0.5 / self.magic_speed)
         ).start(self)
 
-    def shrink(self):
+    def shrink(self) -> NoReturn:
+        """Shrink effect animation."""
+
+        Animation(
+            scale_x=0.95, scale_y=0.95, t="out_quad", d=0.1 / self.magic_speed
+        ).start(self)
+
+    def on_touch_up(self, *args):
         Animation.stop_all(self)
-        Animation(scale_x=0.95, scale_y=0.95, t="out_quad", d=0.1).start(self)
-
-
-Factory.register("MagicBehavior", cls=MagicBehavior)
+        return super().on_touch_up(*args)

@@ -1,6 +1,6 @@
 import certifi
 from kivy.clock import Clock
-from kivymd.uix.dialog import MDInputDialog
+from dialog import MDInputDialog
 from urllib import parse
 from kivy.network.urlrequest import UrlRequest
 from kivymd.app import MDApp
@@ -49,9 +49,13 @@ class SearchPopupMenu(MDInputDialog):
             print('[' + '\x1b[1;33;40m' + 'ERROR' + '\x1b[0m' +
                   '  ] [IndexError  ] ' + '\x1b[1;33;40m' + f"{IndexError} " + '\x1b[0m' + f"while searching for: {self.text_field.text}")
             Snackbar(
+                # [color=#ff0000]TEXT[/color] for red text
                 text=f"'{self.text_field.text}' could not be found",
-                button_text="RETRY",
-                button_callback=self.open).show()
+                bg_color=self.theme_cls.primary_color,
+                buttons=[
+                    MDFlatButton(
+                        text="[color=#ffffff]RETRY[/color]",
+                        on_release=self.open)]).open()
 
     def failure(self, urlrequest, result):
         print('[' + '\x1b[1;31;40m' + 'FAILURE' + '\x1b[0m' +
