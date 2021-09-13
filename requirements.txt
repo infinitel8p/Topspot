@@ -1,3 +1,4 @@
 kivy
+kivymd
 kivy_garden
 kivy_garden.mapview
