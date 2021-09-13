@@ -70,7 +70,7 @@ class GpsHelper():
                 pass
         else:
             map = MDApp.get_running_app().root.ids.mapview
-            map.center_on(51.39735, 7.18072)
+            map.center_on(52.51625163358924, 13.377699466276058)
             map.zoom = 15
 
     def on_auth_status(self, general_status, status_message):
