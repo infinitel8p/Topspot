@@ -218,7 +218,8 @@ Builder.load_string(
                         ThinLabel:
                             text: "Google Maps: "
                         ThinLabelButton:
-                            text: "Get a route to the spot"
+                            text_color: self.theme_cls.primary_color
+                            text: "Click to get a route to the spot"
                             on_release:
                                 webbrowser.open(root.MapsLink)
                     ThinBox:
