@@ -4,7 +4,8 @@
 
 Finde eingetragene Skatespots und Skateparks in deiner Nähe und der ganzen Welt auf einer interaktiven Karte.
 Entdecke Orte und lokale Skate-Communities bei dir in der Umgebung.
-Lass dich zu Locations wie Skateparks und Streetspots mit Google Maps navigieren.
+Lass dich zu Locations wie Skateparks und Streetspots mit Google Maps navigieren.  
+https://play.google.com/store/apps/details?id=org.ferrara.topspot
 
 |                                                    Mobile Version                                                     |                                                    Tablet Version                                                     |
 | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
