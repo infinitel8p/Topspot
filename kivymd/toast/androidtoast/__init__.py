@@ -1,14 +1,12 @@
 """
-AndroidToast
-============
+Toast for Android device
+========================
 
-Copyright (c) 2013 Brian Knapp
+.. image:: https://github.com/HeaTTheatR/KivyMD-data/raw/master/gallery/kivymddoc/toast.png
+    :align: center
 
-For suggestions and questions:
-<kivydevelopment@gmail.com>
-
-This file is distributed under the terms of the same license,
-as the Kivy framework.
 """
+
+__all__ = ("toast",)
 
 from .androidtoast import toast

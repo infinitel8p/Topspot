@@ -2,28 +2,25 @@
 Behaviors
 =========
 
-Copyright (c) 2015 Andrés Rodríguez and KivyMD contributors -
-    KivyMD library up to version 0.1.2
-Copyright (c) 2019 Ivanov Yuri and KivyMD contributors -
-    KivyMD library version 0.1.3 and higher
-
-For suggestions and questions:
-<kivydevelopment@gmail.com>
-
-This file is distributed under the terms of the same license,
-as the Kivy framework.
+Modules and classes implementing various behaviors for buttons etc.
 """
 
-from .ripplebehavior import CircularRippleBehavior, RectangularRippleBehavior
-from .hover_behavior import HoverBehavior
-from .elevation import (
-    CommonElevationBehavior,
-    RectangularElevationBehavior,
-    CircularElevationBehavior,
-    RectangularElevationBehavior,
-)
-from .backgroundcolorbehavior import (
+# flake8: NOQA
+from .hover_behavior import HoverBehavior  # isort:skip
+from .backgroundcolor_behavior import (
     BackgroundColorBehavior,
     SpecificBackgroundColorBehavior,
 )
+from .elevation import (
+    CircularElevationBehavior,
+    CommonElevationBehavior,
+    FakeCircularElevationBehavior,
+    FakeRectangularElevationBehavior,
+    ObservableShadow,
+    RectangularElevationBehavior,
+    RoundedRectangularElevationBehavior,
+)
+from .focus_behavior import FocusBehavior
 from .magic_behavior import MagicBehavior
+from .ripple_behavior import CircularRippleBehavior, RectangularRippleBehavior
+from .touch_behavior import TouchBehavior
