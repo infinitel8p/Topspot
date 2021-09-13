@@ -4,7 +4,7 @@
 #:import ButtonCallback navdrawercallback.ButtonCallback
 
 Screen:
-    NavigationLayout:
+    MDNavigationLayout:
         ScreenManager:
             Screen:
                 BoxLayout:
@@ -13,7 +13,7 @@ Screen:
                     MDToolbar:
                         title: "Skatespot Map"
                         right_action_items: [["magnify", lambda x: app.search_menu.open()]]
-                        left_action_items: [["menu", lambda x: nav_drawer.toggle_nav_drawer()]]
+                        left_action_items: [["menu", lambda x: nav_drawer.set_state("open")]]
                         md_bg_color: app.theme_cls.primary_color
 
                     FloatLayout:
