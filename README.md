@@ -2,8 +2,8 @@
 
 ### Skatespot World Map
 
-Finde Spots auf der ganzen Welt oder in deiner Nähe.  
-Entdecke Orte und lokale Skate-Communities bei dir in der Umgebung.  
+Finde eingetragene Skatespots und Skateparks in deiner Nähe und der ganzen Welt auf einer interaktiven Karte.
+Entdecke Orte und lokale Skate-Communities bei dir in der Umgebung.
 Lass dich zu Locations wie Skateparks und Streetspots mit Google Maps navigieren.
 
 |                                                    Mobile Version                                                     |                                                    Tablet Version                                                     |
