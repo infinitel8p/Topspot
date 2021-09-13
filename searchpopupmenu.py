@@ -1,6 +1,6 @@
 import certifi
 from kivy.clock import Clock
-from kivymd.uix.dialog import MDInputDialog
+from dialog import MDInputDialog
 from urllib import parse
 from kivy.network.urlrequest import UrlRequest
 from kivymd.app import MDApp

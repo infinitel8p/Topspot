@@ -1,4 +1,4 @@
-from kivymd.uix.dialog import ListMDDialog
+from dialog import ListMDDialog
 import requests
 import certifi
 import shutil
