@@ -54,6 +54,7 @@ class GpsHelper():
             if not self.has_centered_map:
                 map = MDApp.get_running_app().root.ids.mapview
                 map.center_on(my_lat, my_lon)
+                map.zoom = 15
                 self.has_centered_map = True
         except:
             Snackbar(
