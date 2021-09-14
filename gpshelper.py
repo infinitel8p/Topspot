@@ -32,7 +32,7 @@ class GpsHelper():
                 gps.start(minTime=1000, minDistance=0)
             except:
                 Snackbar(
-                    text=f"No GPS! Please turn on GPS.").open()
+                    text=f"No GPS! Please check GPS and restart the app.").open()
         # else:
             # update gps coordinates on screen
         #    coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
