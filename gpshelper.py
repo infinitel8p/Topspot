@@ -32,7 +32,7 @@ class GpsHelper():
                 gps.start(minTime=1000, minDistance=0)
             except:
                 Snackbar(
-                    text=f"No GPS! Please check GPS and restart the app.").open()
+                    text=f"No GPS! Please check/enable GPS and restart the app.").open()
         # else:
             # update gps coordinates on screen
         #    coordinate_label = MDApp.get_running_app().root.ids.coordinate_label
@@ -58,7 +58,7 @@ class GpsHelper():
                 self.has_centered_map = True
         except:
             Snackbar(
-                text=f"No GPS! Please turn on GPS.").open()
+                text=f"No GPS! Please check/enable GPS and restart the app.").open()
 
     def gps_button_callback():
         if platform == "android" or platform == "ios":
@@ -68,7 +68,7 @@ class GpsHelper():
                 map.zoom = 15
             except:
                 Snackbar(
-                    text=f"No GPS! Please turn on GPS.").open()
+                    text=f"No GPS! Please check/enable GPS and restart the app.").open()
         else:
             map = MDApp.get_running_app().root.ids.mapview
             map.center_on(52.51625163358924, 13.377699466276058)
