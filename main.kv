@@ -59,7 +59,7 @@ Screen:
                     pos_hint: {"top": 1}
 
                     FitImage:
-                        source: "TopSpotGreyBig.png"
+                        source: "lib/TopSpotGreyBig.png"
 
                     MDIconButton:
                         icon: "close"
@@ -261,6 +261,13 @@ Screen:
 
                         OneLineIconListItem:
                             text: "Oberhausen"
+                            on_release: ButtonCallback(self.text)
+
+                            IconLeftWidget:
+                                icon: "crosshairs-gps"
+
+                        OneLineIconListItem:
+                            text: "Paris"
                             on_release: ButtonCallback(self.text)
 
                             IconLeftWidget:

@@ -57,7 +57,7 @@ class TopSpotMap(MapView):
         marker = SpotMarker()
         marker.lat = lat
         marker.lon = lon
-        marker.source = "map_marker_32x32.png"
+        marker.source = "lib/map_marker_32x32.png"
         marker.spot_data = spot
         # add marker to map
         self.add_widget(marker)

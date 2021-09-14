@@ -1,6 +1,6 @@
 from kivymd.app import MDApp
 from kivy.utils import platform
-from dialog import MDDialog
+from lib.dialog import MDDialog
 from kivymd.uix.snackbar import Snackbar
 
 

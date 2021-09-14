@@ -1,4 +1,4 @@
-from dialog import ListMDDialog
+from lib.dialog import ListMDDialog
 import requests
 import certifi
 import shutil
@@ -9,7 +9,7 @@ import filecmp
 def ImageCheck(imageSource, imageName, fileName, SpotName, iD):
     try:
         # Check if image is already downloaded/created and if it is different to the error.png
-        if os.path.isfile(f"cache/{fileName}{SpotName}{iD}.png") and filecmp.cmp(f"cache/{fileName}{SpotName}{iD}.png", "error.png") == False:
+        if os.path.isfile(f"cache/{fileName}{SpotName}{iD}.png") and filecmp.cmp(f"cache/{fileName}{SpotName}{iD}.png", "lib/error.png") == False:
             print('[' + '\x1b[1;32;40m' + 'INFO' + '\x1b[0m' +
                   f'   ] [{imageName}     ] ' + "Check succedeed - Image found - Cached Image will be used")
         # If image cannot be used from cache try to download the image
@@ -29,12 +29,12 @@ def ImageCheck(imageSource, imageName, fileName, SpotName, iD):
             else:
                 print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
                       f'   ] [{imageName}     ] ' + "Missing Image - using missing.jpg")
-                shutil.copy("missing.jpg",
+                shutil.copy("lib/missing.jpg",
                             f"cache/{fileName}{SpotName}{iD}.png")
     except:
         print('[' + '\x1b[1;31;40m' + 'INFO' + '\x1b[0m' +
               f'   ] [{imageName}     ] ' + "Download failed - Device Offline, using error.png")
-        shutil.copy("error.png", f"cache/{fileName}{SpotName}{iD}.png")
+        shutil.copy("lib/error.png", f"cache/{fileName}{SpotName}{iD}.png")
 
 
 class LocationPopupMenu(ListMDDialog):
