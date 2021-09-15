@@ -1,6 +1,7 @@
-*/Images/*
+*/.git/*
+*/.github/*
 */bin/*
 */GeoData/*
+*/Images/*
 */tests/*
-*/.git/*
 */.buildozer/*
