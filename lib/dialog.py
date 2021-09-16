@@ -451,6 +451,7 @@ class ListMDDialog(BaseDialog):
     Country = StringProperty("Missing data")
     PLZ = StringProperty("Missing data")
     Information = StringProperty("Missing data")
+    Category = StringProperty("Missing data")
     updateTime = StringProperty("Missing data")
     background = StringProperty('{}ios_bg_mod.png'.format(images_path))
 
