@@ -218,8 +218,9 @@ Builder.load_string(
                         ThinLabel:
                             text: "Google Maps: "
                         ThinLabelButton:
-                            text_color: self.theme_cls.primary_color
                             text: "Click to get a route to the spot"
+                            theme_text_color: 'Custom'
+                            text_color: app.theme_cls.primary_color
                             on_release:
                                 webbrowser.open(root.MapsLink)
                     ThinBox:
@@ -227,6 +228,8 @@ Builder.load_string(
                             text: "Website: "
                         ThinLabelButton:
                             text: root.Website
+                            theme_text_color: 'Custom'
+                            text_color: app.theme_cls.primary_color
                             on_release:
                                 webbrowser.open(self.text)
                     ThinBox:
@@ -251,17 +254,23 @@ Builder.load_string(
                             text: root.PLZ
                     ThinBox:
                         ThinLabel:
-                            text: "open full size images: "
+                            text: "Click to open full size images: "
                         ThinLabelButton:
                             text: "Image 1"
+                            theme_text_color: 'Custom'
+                            text_color: app.theme_cls.primary_color
                             on_release:
                                 webbrowser.open(root.Image1)
                         ThinLabelButton:
                             text: "Image 2"
+                            theme_text_color: 'Custom'
+                            text_color: app.theme_cls.primary_color
                             on_release:
                                 webbrowser.open(root.Image2)
                         ThinLabelButton:
                             text: "Image 3"
+                            theme_text_color: 'Custom'
+                            text_color: app.theme_cls.primary_color
                             on_release:
                                 webbrowser.open(root.Image3)
                     ThinBox:
