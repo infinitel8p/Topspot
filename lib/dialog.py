@@ -271,6 +271,11 @@ Builder.load_string(
                             text: root.Information
                     ThinBox:
                         ThinLabel:
+                            text: "Category: "
+                        ThinLabel:
+                            text: root.Category
+                    ThinBox:
+                        ThinLabel:
                             text: "Last updated: "
                         ThinLabel:
                             text: root.updateTime

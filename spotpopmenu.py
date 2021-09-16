@@ -42,7 +42,7 @@ class LocationPopupMenu(ListMDDialog):
         super().__init__()
 
         headers = ['ID', 'SpotName', 'x', 'y', 'MapsLink', 'Website', 'Street', 'City',
-                   'Country', 'PLZ', 'Image1', 'Image2', 'Image3', 'Information', 'updateTime']
+                   'Country', 'PLZ', 'Image1', 'Image2', 'Image3', 'Information', 'Category', 'updateTime']
 
         for i in range(len(headers)):
             attribute_name = headers[i]
