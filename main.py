@@ -50,6 +50,9 @@ class MainApp(MDApp):
         # init SearchPopupMenu
         self.search_menu = SearchPopupMenu()
 
+        # init SpotFilter
+        self.spot_filter = SearchPopupMenu()
+
 
 if __name__ == "__main__":
     MainApp().run()
