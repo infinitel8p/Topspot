@@ -52,15 +52,30 @@ class TopSpotMap(MapView):
               '   ] [Mapview     ] ' + "Creating Marker for: " +
               '\x1b[1;34;40m' + f"{spot[1]}" + '\x1b[0m' + f" @ {spot[3]}, {spot[2]}")
 
-        # init marker for the spot
-        lat, lon = spot[3], spot[2]
-        marker = SpotMarker()
-        marker.lat = lat
-        marker.lon = lon
-        marker.source = "lib/map_marker_32x32.png"
-        marker.spot_data = spot
-        # add marker to map
-        self.add_widget(marker)
-        # register added markers
-        name = spot[1]
-        self.spot_names.append(name)
+        if spot[14] == "Skatepark":
+            # init red marker for skateparks
+            lat, lon = spot[3], spot[2]
+            marker = SpotMarker()
+            marker.lat = lat
+            marker.lon = lon
+            marker.source = "lib/map_marker2_32x32.png"
+            marker.spot_data = spot
+            # add marker to map
+            self.add_widget(marker)
+            # register added markers
+            name = spot[1]
+            self.spot_names.append(name)
+
+        else:
+            # init blue marker for the spot
+            lat, lon = spot[3], spot[2]
+            marker = SpotMarker()
+            marker.lat = lat
+            marker.lon = lon
+            marker.source = "lib/map_marker_32x32.png"
+            marker.spot_data = spot
+            # add marker to map
+            self.add_widget(marker)
+            # register added markers
+            name = spot[1]
+            self.spot_names.append(name)
