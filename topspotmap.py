@@ -66,6 +66,34 @@ class TopSpotMap(MapView):
             name = spot[1]
             self.spot_names.append(name)
 
+        if spot[14] == "Plaza":
+            # init pink marker for plaza
+            lat, lon = spot[3], spot[2]
+            marker = SpotMarker()
+            marker.lat = lat
+            marker.lon = lon
+            marker.source = "lib/map_marker3_32x32.png"
+            marker.spot_data = spot
+            # add marker to map
+            self.add_widget(marker)
+            # register added markers
+            name = spot[1]
+            self.spot_names.append(name)
+
+        if spot[14] == "Stairs":
+            # init black marker for stairs
+            lat, lon = spot[3], spot[2]
+            marker = SpotMarker()
+            marker.lat = lat
+            marker.lon = lon
+            marker.source = "lib/map_marker9_32x32.png"
+            marker.spot_data = spot
+            # add marker to map
+            self.add_widget(marker)
+            # register added markers
+            name = spot[1]
+            self.spot_names.append(name)
+
         else:
             # init blue marker for the spot
             lat, lon = spot[3], spot[2]
