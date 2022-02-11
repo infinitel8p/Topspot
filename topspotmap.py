@@ -52,58 +52,25 @@ class TopSpotMap(MapView):
               '   ] [Mapview     ] ' + "Creating Marker for: " +
               '\x1b[1;34;40m' + f"{spot[1]}" + '\x1b[0m' + f" @ {spot[3]}, {spot[2]}")
 
+        # set color for marker
         if spot[14] == "Skatepark":
-            # init red marker for skateparks
-            lat, lon = spot[3], spot[2]
-            marker = SpotMarker()
-            marker.lat = lat
-            marker.lon = lon
-            marker.source = "lib/map_marker2_32x32.png"
-            marker.spot_data = spot
-            # add marker to map
-            self.add_widget(marker)
-            # register added markers
-            name = spot[1]
-            self.spot_names.append(name)
-
-        if spot[14] == "Plaza":
-            # init pink marker for plaza
-            lat, lon = spot[3], spot[2]
-            marker = SpotMarker()
-            marker.lat = lat
-            marker.lon = lon
-            marker.source = "lib/map_marker3_32x32.png"
-            marker.spot_data = spot
-            # add marker to map
-            self.add_widget(marker)
-            # register added markers
-            name = spot[1]
-            self.spot_names.append(name)
-
-        if spot[14] == "Stairs":
-            # init black marker for stairs
-            lat, lon = spot[3], spot[2]
-            marker = SpotMarker()
-            marker.lat = lat
-            marker.lon = lon
-            marker.source = "lib/map_marker9_32x32.png"
-            marker.spot_data = spot
-            # add marker to map
-            self.add_widget(marker)
-            # register added markers
-            name = spot[1]
-            self.spot_names.append(name)
-
+            marker_source = "lib/map_marker2_32x32.png"
+        elif spot[14] == "Plaza":
+            marker_source = "lib/map_marker3_32x32.png"
+        elif spot[14] == "Stairs":
+            marker_source = "lib/map_marker9_32x32.png"
         else:
-            # init blue marker for the spot
-            lat, lon = spot[3], spot[2]
-            marker = SpotMarker()
-            marker.lat = lat
-            marker.lon = lon
-            marker.source = "lib/map_marker_32x32.png"
-            marker.spot_data = spot
-            # add marker to map
-            self.add_widget(marker)
-            # register added markers
-            name = spot[1]
-            self.spot_names.append(name)
+            marker_source = "lib/map_marker_32x32.png"
+
+        # init  marker for spots
+        lat, lon = spot[3], spot[2]
+        marker = SpotMarker()
+        marker.lat = lat
+        marker.lon = lon
+        marker.source = marker_source
+        marker.spot_data = spot
+        # add marker to map
+        self.add_widget(marker)
+        # register added markers
+        name = spot[1]
+        self.spot_names.append(name)
