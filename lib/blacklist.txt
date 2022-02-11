@@ -4,5 +4,4 @@
 */GeoData/*
 */Images/*
 */tests/*
-*/lib/*
 */.buildozer/*
