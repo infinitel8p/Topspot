@@ -2,6 +2,7 @@ from kivymd.app import MDApp
 import sqlite3
 from topspotmap import TopSpotMap
 from searchpopupmenu import SearchPopupMenu
+from filterpopupmenu import FilterPopupMenu
 from gpshelper import GpsHelper
 from kivy.uix.boxlayout import BoxLayout
 from kivymd.theming import ThemableBehavior
@@ -49,6 +50,9 @@ class MainApp(MDApp):
 
         # init SearchPopupMenu
         self.search_menu = SearchPopupMenu()
+
+        # init FilterPopupMenu
+        self.spot_filter = FilterPopupMenu()
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ Screen:
 
                     MDToolbar:
                         title: "Topspot - Skatespot Map"
-                        right_action_items: [["magnify", lambda x: app.search_menu.open()]] #[["filter-menu-outline", lambda x: app.spot_filter.open()],
+                        right_action_items: [["filter-menu-outline", lambda x: app.spot_filter.open()],["magnify", lambda x: app.search_menu.open()]]
                         left_action_items: [["menu", lambda x: nav_drawer.set_state("open")]]
                         md_bg_color: app.theme_cls.primary_color
 

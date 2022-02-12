@@ -3,6 +3,7 @@ from kivy.clock import Clock
 from kivymd.app import MDApp
 from spotmarker import SpotMarker
 from kivy.utils import platform
+from filterarguments import filter_category
 
 
 class TopSpotMap(MapView):
@@ -31,11 +32,18 @@ class TopSpotMap(MapView):
         print('[' + '\x1b[1;35;40m' + 'INFO' + '\x1b[0m' +
               '   ] [Mapview     ] ' + "Spots in FOV: " + '\x1b[1;35;40m' + f"{len(spots)}" +
               '\x1b[0m')
+        # add markers for spots not in filter_category nor in spot_names
         for spot in spots:
             name = spot[1]
+            if spot[14] in filter_category:
+                if name in self.spot_names:
+                    try:
+                        self.spot_names.remove(name)
+                    except:
+                        pass
             if name in self.spot_names:
                 pass
-            else:
+            elif spot[14] not in filter_category:
                 self.add_spot(spot)
         # update gps coordinates on screen
         if platform == "android" or platform == "ios":
